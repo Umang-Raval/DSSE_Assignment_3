@@ -1,30 +1,41 @@
 import json
+from collections import Counter
+
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
-import os
 
-os.makedirs("output", exist_ok=True)
+from config import DOCUMENT_TERM_MATRIX_CSV, OUTPUT_DIR, PROCESSED_ISSUES_JSON
 
-with open("output/processed_issues.json", "r", encoding="utf-8") as f:
-    issues = json.load(f)
 
-documents = [
-    issue["clean_text"]
-    for issue in issues
-]
+def run_build_document_term_matrix() -> pd.DataFrame:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-vectorizer = CountVectorizer()
+    with open(PROCESSED_ISSUES_JSON, "r", encoding="utf-8") as file:
+        processed_issues = json.load(file)
 
-X = vectorizer.fit_transform(documents)
+    vocabulary = sorted(
+        {
+            token
+            for issue in processed_issues
+            for token in issue["tokens"]
+        }
+    )
 
-dtm = pd.DataFrame(
-    X.toarray(),
-    columns=vectorizer.get_feature_names_out()
-)
+    rows = []
+    for issue in processed_issues:
+        counts = Counter(issue["tokens"])
+        row = {"issue_key": issue["issue_key"]}
+        row.update({word: counts.get(word, 0) for word in vocabulary})
+        rows.append(row)
 
-dtm.to_csv(
-    "output/document_term_matrix.csv",
-    index=False
-)
+    dtm = pd.DataFrame(rows)
+    column_order = ["issue_key"] + vocabulary
+    dtm = dtm[column_order]
+    dtm.to_csv(DOCUMENT_TERM_MATRIX_CSV, index=False)
 
-print(dtm.shape)
+    print(f"Document-term matrix shape: {dtm.shape}")
+    print(f"Saved DTM to {DOCUMENT_TERM_MATRIX_CSV}")
+    return dtm
+
+
+if __name__ == "__main__":
+    run_build_document_term_matrix()

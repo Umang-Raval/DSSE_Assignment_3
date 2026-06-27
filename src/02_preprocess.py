@@ -1,173 +1,37 @@
 import json
-import pickle
-from pathlib import Path
 
-import nltk
+import pandas as pd
 
-from dl_manager import accelerator
-
-# -----------------------------
-# CONFIG
-# -----------------------------
-
-INPUT_FOLDER = Path("data/issues")
-OUTPUT_FOLDER = Path("data/processed")
-OUTPUT_FOLDER.mkdir(exist_ok=True)
-
-THREADS = 8
-FORMATTING = "markers"
-
-USE_LOWERCASE = True
-REMOVE_STOPWORDS = True
-USE_LEMMATIZATION = True
-
-# -----------------------------
-# NLTK
-# -----------------------------
-
-stopwords = set(nltk.corpus.stopwords.words("english"))
-lemmatizer = nltk.stem.WordNetLemmatizer()
-
-POS_CONVERSION = {
-    "JJ": "a",
-    "JJR": "a",
-    "JJS": "a",
-    "NN": "n",
-    "NNS": "n",
-    "NNP": "n",
-    "NNPS": "n",
-    "RB": "r",
-    "RBR": "r",
-    "RBS": "r",
-    "VB": "v",
-    "VBD": "v",
-    "VBG": "v",
-    "VBN": "v",
-    "VBP": "v",
-    "VBZ": "v",
-}
-
-# -----------------------------
-# Rust POS Tagger
-# -----------------------------
-
-weights, tagdict, classes = nltk.load(
-    "taggers/averaged_perceptron_tagger/averaged_perceptron_tagger.pickle"
+from config import (
+    OUTPUT_DIR,
+    PROCESSED_ISSUES_CSV,
+    PROCESSED_ISSUES_JSON,
+    RAW_ISSUES_JSON,
 )
+from preprocessing import preprocess_issues
 
-tagger = accelerator.Tagger(
-    weights,
-    classes,
-    tagdict
-)
 
-# -----------------------------
-# Read Issues
-# -----------------------------
+def run_preprocess() -> list[dict]:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-documents = []
-issue_ids = []
+    with open(RAW_ISSUES_JSON, "r", encoding="utf-8") as file:
+        raw_issues = json.load(file)
 
-for file in sorted(INPUT_FOLDER.glob("*.json")):
+    print(f"Loaded {len(raw_issues)} raw issues")
+    processed_issues = preprocess_issues(raw_issues)
 
-    with open(file, encoding="utf8") as f:
-        issue = json.load(f)
+    with open(PROCESSED_ISSUES_JSON, "w", encoding="utf-8") as file:
+        json.dump(processed_issues, file, indent=4, ensure_ascii=False)
 
-    summary = issue["fields"].get("summary", "")
-    description = issue["fields"].get("description", "")
-
-    documents.append(summary + "\n" + description)
-    issue_ids.append(issue["key"])
-
-print(f"Loaded {len(documents)} issues")
-
-# -----------------------------
-# Rust Cleaning
-# -----------------------------
-
-cleaned = accelerator.bulk_clean_text_parallel(
-    documents,
-    FORMATTING,
-    THREADS
-)
-
-# -----------------------------
-# Sentence tokenize
-# -----------------------------
-
-tokenized = []
-
-for doc in cleaned:
-
-    sentences = nltk.sent_tokenize(doc)
-
-    tokenized.append([
-        nltk.word_tokenize(
-            sentence.lower() if USE_LOWERCASE else sentence
-        )
-        for sentence in sentences
-    ])
-
-print("Tokenized.")
-
-# -----------------------------
-# Rust POS Tagging
-# -----------------------------
-
-tagged = tagger.bulk_tag_parallel(
-    tokenized,
-    THREADS
-)
-
-print("POS tagging done.")
-
-# -----------------------------
-# Lemmatization
-# -----------------------------
-
-processed = []
-
-for issue in tagged:
-
-    words = []
-
-    for sentence in issue:
-
-        for word, tag in sentence:
-
-            if REMOVE_STOPWORDS and word in stopwords:
-                continue
-
-            if USE_LEMMATIZATION:
-
-                word = lemmatizer.lemmatize(
-                    word,
-                    POS_CONVERSION.get(tag, "n")
-                )
-
-            words.append(word)
-
-    processed.append(words)
-
-print("Lemmatization complete.")
-
-# -----------------------------
-# Save
-# -----------------------------
-
-with open(
-    OUTPUT_FOLDER / "processed.pkl",
-    "wb"
-) as f:
-
-    pickle.dump(
-        {
-            "ids": issue_ids,
-            "documents": processed
-        },
-        f
+    pd.DataFrame(processed_issues).to_csv(
+        PROCESSED_ISSUES_CSV,
+        index=False,
+        encoding="utf-8",
     )
 
-print()
-print("Saved to:")
-print(OUTPUT_FOLDER / "processed.pkl")
+    print(f"Saved processed issues to {PROCESSED_ISSUES_JSON}")
+    return processed_issues
+
+
+if __name__ == "__main__":
+    run_preprocess()

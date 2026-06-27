@@ -1,225 +1,109 @@
-import pandas as pd
-import requests
 import json
 import time
+
+import pandas as pd
+import requests
 from tqdm import tqdm
 
-# =====================================================
-# CONFIGURATION
-# =====================================================
-
-EXCEL_FILE = "data/Issues.xlsx"
-
-OUTPUT_JSON = "output/raw_issues.json"
-OUTPUT_CSV = "output/raw_issues.csv"
-
-JIRA_API = "https://issues.apache.org/jira/rest/api/2/issue/{}"
-
-# =====================================================
-# READ ISSUE IDS
-# =====================================================
-
-print("Reading Excel file...")
-
-df = pd.read_excel(EXCEL_FILE)
-
-print("\nColumns in Excel:")
-print(df.columns.tolist())
-
-# -----------------------------------------------------
-# CHANGE THIS IF YOUR COLUMN NAME IS DIFFERENT
-# -----------------------------------------------------
-
-ISSUE_COLUMN = "Issue ID"
-
-issue_keys = (
-    df[ISSUE_COLUMN]
-    .dropna()
-    .astype(str)
-    .str.strip()
-    .tolist()
+from config import (
+    EXCEL_FILE,
+    ISSUE_COLUMN,
+    JIRA_API,
+    OUTPUT_DIR,
+    RAW_ISSUES_CSV,
+    RAW_ISSUES_JSON,
 )
 
-print(f"\nFound {len(issue_keys)} issue IDs")
 
-# =====================================================
-# DOWNLOAD ISSUES
-# =====================================================
+def download_issues() -> list[dict]:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-issues = []
-
-failed = []
-
-print("\nDownloading issues...\n")
-
-for issue in tqdm(issue_keys):
-
-    url = JIRA_API.format(issue)
-
-    try:
-
-        response = requests.get(url, timeout=30)
-
-        if response.status_code != 200:
-
-            failed.append(issue)
-            continue
-
-        data = response.json()
-
-        fields = data["fields"]
-
-        # ------------------------------------------
-        # Parent Issue
-        # ------------------------------------------
-
-        parent = None
-
-        if fields.get("parent"):
-
-            parent = fields["parent"]["key"]
-
-        # ------------------------------------------
-        # Components
-        # ------------------------------------------
-
-        components = []
-
-        if fields.get("components"):
-
-            components = [
-                c["name"]
-                for c in fields["components"]
-            ]
-
-        # ------------------------------------------
-        # Labels
-        # ------------------------------------------
-
-        labels = fields.get("labels", [])
-
-        # ------------------------------------------
-        # Assignee
-        # ------------------------------------------
-
-        assignee = None
-
-        if fields.get("assignee"):
-
-            assignee = fields["assignee"]["displayName"]
-
-        # ------------------------------------------
-        # Reporter
-        # ------------------------------------------
-
-        reporter = None
-
-        if fields.get("reporter"):
-
-            reporter = fields["reporter"]["displayName"]
-
-        # ------------------------------------------
-        # Description
-        # ------------------------------------------
-
-        description = fields.get("description")
-
-        if description is None:
-
-            description = ""
-
-        # ------------------------------------------
-        # Store Everything
-        # ------------------------------------------
-
-        issues.append({
-
-            "issue_key": issue,
-
-            "summary": fields.get("summary"),
-
-            "description": description,
-
-            "issue_type": fields["issuetype"]["name"],
-
-            "status": fields["status"]["name"],
-
-            "priority":
-                fields["priority"]["name"]
-                if fields.get("priority")
-                else None,
-
-            "resolution":
-                fields["resolution"]["name"]
-                if fields.get("resolution")
-                else None,
-
-            "created": fields.get("created"),
-
-            "updated": fields.get("updated"),
-
-            "assignee": assignee,
-
-            "reporter": reporter,
-
-            "components": components,
-
-            "labels": labels,
-
-            "comments":
-                fields["comment"]["total"],
-
-            "parent": parent
-
-        })
-
-        # Avoid hammering the API
-
-        time.sleep(0.2)
-
-    except Exception as e:
-
-        print(f"Error downloading {issue}")
-
-        print(e)
-
-        failed.append(issue)
-
-# =====================================================
-# SAVE JSON
-# =====================================================
-
-with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-
-    json.dump(
-        issues,
-        f,
-        indent=4,
-        ensure_ascii=False
+    print(f"Reading issue IDs from {EXCEL_FILE}...")
+    df = pd.read_excel(EXCEL_FILE)
+    issue_keys = (
+        df[ISSUE_COLUMN]
+        .dropna()
+        .astype(str)
+        .str.strip()
+        .tolist()
     )
+    print(f"Found {len(issue_keys)} issue IDs")
 
-# =====================================================
-# SAVE CSV
-# =====================================================
+    issues = []
+    failed = []
 
-csv_df = pd.DataFrame(issues)
+    print("Downloading issues from Jira...")
+    for issue_key in tqdm(issue_keys):
+        url = JIRA_API.format(issue_key)
 
-csv_df.to_csv(
-    OUTPUT_CSV,
-    index=False,
-    encoding="utf-8"
-)
+        try:
+            response = requests.get(url, timeout=30)
+            if response.status_code != 200:
+                failed.append(issue_key)
+                continue
 
-print("\nDone!")
+            data = response.json()
+            fields = data["fields"]
 
-print(f"Downloaded: {len(issues)} issues")
+            parent = None
+            if fields.get("parent"):
+                parent = fields["parent"]["key"]
 
-print(f"Failed: {len(failed)}")
+            components = []
+            if fields.get("components"):
+                components = [component["name"] for component in fields["components"]]
 
-if failed:
+            assignee = None
+            if fields.get("assignee"):
+                assignee = fields["assignee"]["displayName"]
 
-    print("\nFailed Issues:")
+            reporter = None
+            if fields.get("reporter"):
+                reporter = fields["reporter"]["displayName"]
 
-    for i in failed:
+            description = fields.get("description") or ""
 
-        print(i)
+            issues.append(
+                {
+                    "issue_key": issue_key,
+                    "summary": fields.get("summary"),
+                    "description": description,
+                    "issue_type": fields["issuetype"]["name"],
+                    "status": fields["status"]["name"],
+                    "priority": fields["priority"]["name"]
+                    if fields.get("priority")
+                    else None,
+                    "resolution": fields["resolution"]["name"]
+                    if fields.get("resolution")
+                    else None,
+                    "created": fields.get("created"),
+                    "updated": fields.get("updated"),
+                    "assignee": assignee,
+                    "reporter": reporter,
+                    "components": components,
+                    "labels": fields.get("labels", []),
+                    "comments": fields["comment"]["total"],
+                    "parent": parent,
+                }
+            )
+
+            time.sleep(0.2)
+        except Exception as exc:
+            print(f"Error downloading {issue_key}: {exc}")
+            failed.append(issue_key)
+
+    with open(RAW_ISSUES_JSON, "w", encoding="utf-8") as file:
+        json.dump(issues, file, indent=4, ensure_ascii=False)
+
+    pd.DataFrame(issues).to_csv(RAW_ISSUES_CSV, index=False, encoding="utf-8")
+
+    print(f"Downloaded: {len(issues)} issues")
+    print(f"Failed: {len(failed)}")
+    if failed:
+        print("Failed issues:", ", ".join(failed))
+
+    return issues
+
+
+if __name__ == "__main__":
+    download_issues()

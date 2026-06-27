@@ -1,0 +1,102 @@
+Vocabulary Analysis
+===================
+
+Top 30 tokens by frequency:
+  simpleclassname: 1718
+  yarn: 1673
+  container: 1498
+  application: 1086
+  resource: 927
+  queue: 917
+  node: 883
+  rm: 793
+  support: 781
+  user: 678
+  service: 631
+  run: 566
+  cluster: 556
+  nm: 517
+  scheduler: 501
+  request: 419
+  app: 361
+  change: 335
+  log: 333
+  api: 318
+  job: 312
+  create: 300
+  allow: 299
+  client: 299
+  file: 297
+  base: 283
+  capacity: 277
+  configuration: 276
+  currently: 272
+  set: 270
+
+Candidates for removal (stopwords / noisy tokens):
+  add: 188
+  make: 96
+  at: 75
+  do: 72
+  am: 67
+  get: 66
+  use: 49
+  time: 40
+  one: 24
+  m: 20
+  see: 14
+  o: 13
+  own: 11
+  d: 5
+  need: 5
+  new: 3
+  few: 2
+  further: 1
+
+Candidates for ontology classes (domain concepts):
+  yarn: 1673
+  container: 1498
+  application: 1086
+  resource: 927
+  queue: 917
+  node: 883
+  cluster: 556
+  scheduler: 501
+  capacity: 277
+  hadoop: 205
+  docker: 199
+  fair: 157
+  hdfs: 131
+  gpu: 110
+
+Candidates for further preprocessing (long/noisy tokens):
+  simpleclassname: 1718
+  configuration: 276
+  implementation: 195
+  versionnumber: 124
+  functionality: 83
+  opportunistic: 79
+  userprofilelink: 51
+  communication: 31
+  automatically: 30
+  administrator: 24
+  noformatblock: 23
+  authentication: 22
+  resourcemanager: 16
+  fairscheduler: 15
+  corresponding: 14
+  initialization: 14
+  vulnerability: 13
+  imageattachment: 12
+  infrastructure: 12
+  transparently: 12
+  authorization: 11
+  compatibility: 11
+  significantly: 10
+  documentation: 9
+  independently: 9
+  specification: 9
+  characteristic: 8
+  decommissioning: 8
+  understanding: 8
+  decommissioned: 7
