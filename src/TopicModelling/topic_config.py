@@ -141,3 +141,34 @@ BERTOPIC_HDBSCAN_PARAMS = dict(
 BERTOPIC_VECTORIZER_PARAMS = dict(
     stop_words="english",
 )
+
+# ============================================================
+# Week 3 - RQ2 (topic characteristics) + RQ3 (co-occurrence)
+# ============================================================
+ANALYSIS_TABLE_CSV = TM_OUTPUT_DIR / "analysis_table.csv"
+
+LDA_BASELINE_PROPORTIONS_CSV = LDA_BASELINE_DIR / "doc_topic_proportions.csv"
+LDA_ONTOLOGY_PROPORTIONS_CSV = LDA_ONTOLOGY_DIR / "doc_topic_proportions.csv"
+BERTOPIC_DOC_TOPICS_CSV = BERTOPIC_DIR / "doc_topics.csv"
+
+RQ2_OUTPUT_DIR = TM_OUTPUT_DIR / "rq2_characteristics"
+RQ3_OUTPUT_DIR = TM_OUTPUT_DIR / "rq3_cooccurrence"
+
+# Design-decision labels: data/Issues.xlsx, sheet "Yarn", 1,545 rows -
+# matches the corpus exactly. The "Types of design decisions" column is a
+# single string like "True False False" - THREE booleans, so an issue can
+# belong to more than one design-decision type at once (multi-label, not
+# one-of-three). We split it into three separate boolean columns.
+#
+# Column order per the string is assumed Existence / Property / Executive
+# (the standard 3-way design-decision taxonomy from issue-mining literature -
+# Bhat et al.) - confirm this order against your professor's material before
+# trusting the labels; if it's wrong, just reorder this list and rerun
+# build_analysis_table.py.
+DESIGN_DECISION_SOURCE_FILE = DATA_DIR / "Issues.xlsx"
+DESIGN_DECISION_SHEET = "Yarn"
+DESIGN_DECISION_KEY_COLUMN = "Issue ID"
+DESIGN_DECISION_RAW_COLUMN = "Types of design decisions"
+DESIGN_DECISION_TYPE_NAMES = ["existence", "property", "executive"]
+
+SIGNIFICANCE_ALPHA = 0.05

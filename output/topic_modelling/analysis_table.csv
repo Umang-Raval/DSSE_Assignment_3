@@ -1,0 +1,1546 @@
+issue_key,issue_type,comments,description_length,lda_baseline_topic,lda_ontology_topic,bertopic_topic,dd_existence,dd_property,dd_executive
+YARN-10650,Improvement,1,17,2,2,-1,True,False,False
+YARN-11025,New Feature,0,49,4,1,-1,True,True,False
+YARN-11005,Sub-task,0,48,1,1,0,True,False,False
+YARN-11003,Sub-task,1,49,1,1,0,True,False,False
+YARN-11002,New Feature,0,224,1,1,0,True,True,False
+YARN-10980,Bug,1,70,3,0,-1,False,True,True
+YARN-10955,Improvement,1,132,4,2,-1,True,True,False
+YARN-10930,Sub-task,0,65,1,2,0,True,False,False
+YARN-10928,Improvement,6,65,0,2,0,True,False,False
+YARN-10899,Improvement,1,60,1,2,0,False,True,False
+YARN-10898,Improvement,1,54,4,0,-1,True,False,False
+YARN-10889,Improvement,0,9,0,0,0,True,False,False
+YARN-10843,Task,0,18,3,0,-1,True,False,False
+YARN-10835,Improvement,0,78,4,0,-1,True,False,False
+YARN-10790,Sub-task,2,49,0,0,0,True,False,False
+YARN-10782,Sub-task,1,20,0,0,0,True,False,False
+YARN-10759,Sub-task,12,30,1,2,0,True,False,False
+YARN-10758,Sub-task,1,49,0,2,0,True,False,False
+YARN-10755,Improvement,1,35,2,1,0,True,False,False
+YARN-10738,Improvement,10,40,1,2,0,True,True,False
+YARN-10714,Sub-task,3,46,0,0,0,True,False,False
+YARN-10655,Sub-task,6,58,0,2,0,False,True,False
+YARN-10623,Improvement,20,37,0,0,0,True,False,False
+YARN-10621,Improvement,1,171,4,0,-1,True,False,True
+YARN-10617,Improvement,2,46,1,1,0,True,False,False
+YARN-10598,Sub-task,6,95,0,0,0,True,False,False
+YARN-10585,Sub-task,12,24,3,2,-1,True,False,False
+YARN-10581,Sub-task,7,52,0,0,0,True,False,False
+YARN-10579,Sub-task,7,29,0,0,0,True,False,False
+YARN-10571,Sub-task,14,27,0,0,0,True,False,False
+YARN-10564,Sub-task,20,44,0,0,0,True,False,False
+YARN-10546,Bug,3,25,1,2,0,True,False,False
+YARN-10534,New Feature,0,40,4,1,2,True,False,False
+YARN-10524,Sub-task,2,81,1,2,0,True,False,False
+YARN-10521,Sub-task,1,39,0,2,0,True,False,False
+YARN-10514,Improvement,2,60,1,2,0,True,True,False
+YARN-10512,Sub-task,16,41,0,2,0,True,False,False
+YARN-10505,Sub-task,10,96,1,2,0,True,False,False
+YARN-10496,New Feature,7,108,0,0,0,True,False,False
+YARN-10493,Sub-task,17,17,4,0,-1,True,True,False
+YARN-10478,Improvement,0,30,1,0,9,True,False,False
+YARN-10473,Sub-task,0,16,4,0,-1,True,False,False
+YARN-10449,Bug,1,57,4,1,-1,True,False,False
+YARN-10436,Sub-task,0,38,3,2,-1,True,False,False
+YARN-10433,Sub-task,1,58,3,2,5,True,False,False
+YARN-10432,Sub-task,0,47,3,2,-1,True,False,False
+YARN-10431,New Feature,3,45,4,0,0,True,True,False
+YARN-10422,Sub-task,3,75,3,2,5,True,False,False
+YARN-10421,Sub-task,5,157,4,2,5,True,False,False
+YARN-10406,New Feature,1,96,4,2,5,True,True,False
+YARN-10389,Improvement,9,39,2,2,-1,True,False,False
+YARN-10384,Improvement,3,42,0,0,0,True,False,False
+YARN-10376,Sub-task,6,41,3,0,-1,True,False,False
+YARN-10375,Sub-task,3,34,3,0,-1,True,False,False
+YARN-10374,Sub-task,6,30,3,0,-1,True,False,False
+YARN-10370,New Feature,6,41,3,0,0,True,False,False
+YARN-10043,Sub-task,22,14,2,0,-1,False,True,False
+YARN-10352,Sub-task,26,85,1,1,9,True,False,False
+YARN-10335,New Feature,8,24,1,0,0,True,True,False
+YARN-10333,Improvement,4,43,4,2,-1,True,False,False
+YARN-10323,Improvement,2,59,4,2,-1,True,True,False
+YARN-10311,Bug,16,20,4,2,4,True,False,False
+YARN-10304,Sub-task,16,42,2,2,5,True,False,False
+YARN-10292,Sub-task,8,26,0,0,-1,True,False,False
+YARN-10281,Task,2,27,3,2,-1,True,False,False
+YARN-10276,Task,1,27,2,2,-1,False,True,False
+YARN-10246,Improvement,3,29,2,1,3,True,False,False
+YARN-10238,Improvement,0,43,2,2,0,True,True,False
+YARN-10229,Sub-task,30,82,4,2,3,True,False,False
+YARN-10216,New Feature,0,58,2,2,1,True,False,False
+YARN-10028,Sub-task,7,24,2,2,5,True,False,False
+YARN-10214,Improvement,0,19,4,1,-1,True,False,False
+YARN-10181,Sub-task,6,16,4,0,8,True,False,False
+YARN-10162,Improvement,0,38,3,0,0,True,False,False
+YARN-10126,Sub-task,0,25,0,2,-1,True,False,False
+YARN-10114,Sub-task,0,26,2,2,5,True,False,False
+YARN-10101,Sub-task,20,24,3,2,5,True,False,False
+YARN-10100,Improvement,0,33,3,0,0,True,False,False
+YARN-10099,Sub-task,2,122,3,2,0,True,False,False
+YARN-10096,Improvement,0,5,2,0,3,True,False,False
+YARN-10094,Improvement,2,19,1,2,-1,False,True,False
+YARN-10079,New Feature,0,15,4,0,0,False,True,False
+YARN-10062,Improvement,0,25,4,2,1,True,False,False
+YARN-10039,Improvement,5,15,3,0,-1,True,False,False
+YARN-10032,Sub-task,3,46,4,2,5,True,False,False
+YARN-10031,Sub-task,19,44,2,2,5,True,True,False
+YARN-10022,Sub-task,14,18,3,1,-1,True,False,False
+YARN-9927,Sub-task,20,60,2,2,-1,True,True,False
+YARN-9936,Sub-task,6,75,1,2,0,True,False,False
+YARN-9926,Improvement,0,55,2,2,-1,True,True,False
+YARN-9923,New Feature,27,105,4,1,-1,True,False,False
+YARN-9916,Improvement,1,49,2,2,-1,True,True,False
+YARN-9904,Sub-task,1,46,1,2,0,True,False,False
+YARN-9899,Sub-task,13,88,2,0,-1,True,False,False
+YARN-9897,Improvement,16,106,4,0,-1,True,False,True
+YARN-9879,Sub-task,51,22,0,2,0,True,False,False
+YARN-9848,Bug,15,27,4,1,4,False,True,False
+YARN-9809,Bug,51,24,4,1,-1,True,False,False
+YARN-9805,Improvement,4,24,2,2,-1,True,True,False
+YARN-9748,Improvement,9,13,0,2,1,True,False,False
+YARN-9726,Improvement,0,45,4,2,5,True,False,False
+YARN-9802,New Feature,1,15,4,0,-1,True,False,False
+YARN-9768,Improvement,46,45,4,1,-1,True,False,False
+YARN-9761,New Feature,14,22,0,2,-1,True,False,False
+YARN-9760,New Feature,13,45,0,2,-1,True,False,False
+YARN-9746,Bug,0,66,4,2,4,True,False,False
+YARN-9754,Sub-task,6,24,1,1,0,True,False,False
+YARN-9753,Bug,1,87,3,2,0,True,True,False
+YARN-9737,Bug,1,58,1,2,0,False,True,False
+YARN-9730,Task,13,107,1,2,8,True,True,False
+YARN-9698,Improvement,15,45,2,0,-1,True,False,False
+YARN-9697,Sub-task,17,59,1,1,0,False,True,False
+YARN-9686,Bug,1,96,3,2,-1,False,True,False
+YARN-9671,Improvement,4,46,1,2,0,False,True,False
+YARN-9669,New Feature,0,194,4,0,2,True,False,False
+YARN-9664,Sub-task,13,26,4,2,-1,False,True,False
+YARN-9663,Bug,4,28,2,2,3,True,False,False
+YARN-9656,Improvement,5,67,4,2,-1,True,True,False
+YARN-9652,Improvement,2,38,0,2,0,True,False,False
+YARN-9634,Improvement,6,75,2,2,5,True,False,False
+YARN-9633,Improvement,3,36,4,2,-1,True,False,False
+YARN-9618,Sub-task,24,49,2,2,-1,True,True,False
+YARN-9609,Bug,2,45,4,2,5,True,False,False
+YARN-9607,Sub-task,13,67,2,2,5,True,False,False
+YARN-9603,New Feature,0,53,0,2,0,True,False,False
+YARN-9577,Improvement,0,24,3,2,3,True,False,False
+YARN-9555,Bug,6,41,4,0,4,True,False,False
+YARN-9528,Bug,1,14,2,1,3,True,False,False
+YARN-9439,Sub-task,12,13,4,2,-1,True,True,False
+YARN-9499,Sub-task,0,51,4,0,6,True,True,False
+YARN-9477,Sub-task,17,35,4,0,-1,True,False,True
+YARN-9473,New Feature,1,64,4,0,-1,True,False,True
+YARN-9472,Sub-task,5,16,0,2,0,True,False,False
+YARN-9443,New Feature,4,29,0,1,1,False,True,False
+YARN-9421,New Feature,5,231,1,1,0,True,False,False
+YARN-9416,Improvement,1,29,3,0,0,True,False,False
+YARN-9414,New Feature,7,36,4,0,6,True,True,False
+YARN-9378,Sub-task,4,68,4,0,2,True,False,False
+YARN-9366,Improvement,3,39,4,2,1,True,False,False
+YARN-9346,Bug,0,27,3,0,0,False,True,True
+YARN-9345,Improvement,0,52,4,1,7,True,True,False
+YARN-9313,Sub-task,11,13,4,2,-1,True,True,False
+YARN-9298,Improvement,15,15,3,0,0,True,False,False
+YARN-9292,Sub-task,22,121,4,0,2,True,False,False
+YARN-9287,Improvement,8,22,2,2,-1,True,True,False
+YARN-9276,Sub-task,0,34,1,2,-1,False,True,False
+YARN-9249,Sub-task,1,46,4,0,2,True,False,False
+YARN-9230,Sub-task,4,23,4,0,2,True,False,True
+YARN-9228,New Feature,2,61,4,0,2,True,False,False
+YARN-9200,Improvement,6,86,1,2,0,True,False,False
+YARN-9174,Sub-task,9,27,4,0,-1,True,False,False
+YARN-9150,Improvement,17,37,3,0,1,True,False,False
+YARN-9146,Sub-task,6,50,4,1,4,True,False,False
+YARN-9145,Improvement,2,17,4,0,-1,True,False,False
+YARN-9116,Sub-task,38,82,0,2,0,True,False,False
+YARN-9098,Improvement,15,116,3,2,-1,True,False,False
+YARN-9086,Sub-task,6,30,4,0,-1,True,False,False
+YARN-9059,Sub-task,0,15,3,0,-1,True,False,False
+YARN-9060,Sub-task,21,46,4,0,-1,True,False,True
+YARN-9056,Bug,5,34,4,1,4,True,False,False
+YARN-9055,Sub-task,5,93,0,2,0,True,False,False
+YARN-9050,Improvement,19,212,1,2,0,True,True,False
+YARN-9045,Improvement,0,68,1,2,-1,True,False,False
+YARN-9038,Sub-task,13,23,4,0,2,True,False,False
+YARN-9034,Sub-task,6,15,3,2,-1,True,False,False
+YARN-9023,New Feature,4,111,4,0,6,True,True,False
+YARN-9021,Improvement,0,42,4,1,4,True,False,False
+YARN-9016,New Feature,17,153,3,2,1,True,False,True
+YARN-9015,Sub-task,6,38,4,0,-1,True,False,False
+YARN-9014,New Feature,10,87,4,0,2,True,False,True
+YARN-9003,Sub-task,19,53,4,0,2,True,False,False
+YARN-9000,Improvement,0,137,3,2,-1,True,False,False
+YARN-8993,Bug,0,27,4,0,2,True,False,False
+YARN-8964,Improvement,6,50,3,2,-1,True,False,False
+YARN-8982,Sub-task,2,16,2,1,3,True,False,False
+YARN-8962,Sub-task,4,20,4,0,2,True,False,False
+YARN-8761,Bug,10,22,4,0,-1,True,False,False
+YARN-8981,New Feature,2,117,4,0,-1,True,False,False
+YARN-8978,Improvement,1,54,1,2,0,True,False,False
+YARN-8967,Improvement,26,29,3,0,0,True,False,False
+YARN-8965,Improvement,0,41,1,2,0,True,False,False
+YARN-8953,Sub-task,9,31,4,0,-1,True,False,False
+YARN-8913,Sub-task,3,82,4,0,2,True,False,False
+YARN-8890,Sub-task,1,17,4,0,-1,True,False,False
+YARN-8903,Improvement,1,154,1,1,-1,True,False,False
+YARN-8895,Improvement,4,47,4,1,-1,True,True,False
+YARN-8889,Sub-task,1,34,4,0,2,True,False,False
+YARN-8887,Sub-task,1,39,4,0,2,True,False,False
+YARN-8886,Sub-task,0,19,3,2,-1,True,True,False
+YARN-8884,Sub-task,0,27,4,1,-1,True,False,False
+YARN-8882,Sub-task,5,22,4,1,-1,True,False,False
+YARN-8881,Sub-task,13,28,4,0,-1,True,False,False
+YARN-8880,Sub-task,9,29,4,0,-1,True,False,False
+YARN-8863,Improvement,0,57,4,1,-1,True,False,False
+YARN-8862,Sub-task,4,38,4,1,4,True,False,False
+YARN-8851,New Feature,25,51,4,0,-1,True,True,False
+YARN-8850,Sub-task,0,7,4,1,-1,False,True,False
+YARN-8849,New Feature,6,231,4,1,0,True,False,True
+YARN-8848,Bug,0,12,4,0,0,True,True,False
+YARN-8839,Sub-task,2,82,4,0,-1,True,True,False
+YARN-8838,Sub-task,6,35,4,1,-1,False,True,False
+YARN-8836,Improvement,9,33,1,0,0,True,False,False
+YARN-8834,Sub-task,18,41,3,0,-1,True,False,False
+YARN-8827,Sub-task,12,83,1,2,0,True,False,False
+YARN-8821,Sub-task,7,323,1,0,-1,True,True,False
+YARN-8820,New Feature,0,76,4,0,-1,True,True,True
+YARN-8811,New Feature,14,34,4,0,-1,True,True,False
+YARN-8766,Improvement,0,12,4,0,-1,True,False,False
+YARN-8765,New Feature,3,42,4,0,0,True,False,False
+YARN-8763,Sub-task,20,71,4,2,6,True,False,False
+YARN-8762,New Feature,2,38,4,0,2,True,False,False
+YARN-8736,New Feature,0,45,4,0,3,True,False,False
+YARN-8731,Improvement,0,21,3,0,0,True,False,False
+YARN-8697,Sub-task,3,47,1,1,3,True,False,False
+YARN-8696,Sub-task,5,115,2,1,9,True,False,False
+YARN-8686,Sub-task,4,29,3,1,-1,True,False,False
+YARN-8684,Improvement,0,26,4,2,0,True,False,False
+YARN-8673,Sub-task,3,53,4,1,-1,True,True,False
+YARN-8670,Improvement,5,76,3,0,0,True,False,False
+YARN-8643,Sub-task,3,78,4,0,2,True,False,False
+YARN-8651,Bug,0,46,1,2,0,False,True,False
+YARN-8639,Improvement,3,30,0,2,0,False,True,False
+YARN-8638,Improvement,27,117,4,0,2,True,False,False
+YARN-8634,Improvement,5,22,4,1,4,True,False,False
+YARN-8626,Sub-task,8,30,2,0,3,True,False,False
+YARN-8621,Improvement,6,34,3,0,-1,True,False,False
+YARN-8618,Improvement,3,32,4,1,4,True,False,False
+YARN-8599,Sub-task,0,27,4,1,-1,True,False,False
+YARN-8598,Sub-task,0,37,4,0,-1,True,False,False
+YARN-8597,Sub-task,0,65,4,1,-1,True,False,False
+YARN-8572,Improvement,1,22,4,1,4,True,False,False
+YARN-8583,Improvement,3,91,3,2,6,True,True,False
+YARN-8571,Bug,4,84,4,0,6,True,False,False
+YARN-8559,Improvement,29,46,0,2,-1,True,False,False
+YARN-8556,Sub-task,0,16,0,0,0,True,False,False
+YARN-8551,Sub-task,13,46,4,1,-1,True,False,False
+YARN-8533,Sub-task,0,28,4,0,-1,True,True,False
+YARN-8532,Sub-task,0,55,4,0,6,True,True,False
+YARN-8499,Sub-task,13,25,3,0,1,True,False,False
+YARN-8495,Wish,1,55,1,2,0,True,True,False
+YARN-8493,Bug,0,103,1,2,5,False,True,False
+YARN-8489,Task,28,83,4,1,-1,True,False,False
+YARN-8488,Task,11,22,4,1,4,True,False,False
+YARN-8472,Improvement,2,42,4,0,2,True,True,False
+YARN-8468,Improvement,71,142,0,2,0,True,False,False
+YARN-8451,Bug,9,58,4,1,9,True,False,False
+YARN-8461,Improvement,8,49,1,0,-1,True,False,False
+YARN-8452,Bug,2,16,1,2,0,False,True,False
+YARN-8446,New Feature,2,66,1,0,0,True,True,False
+YARN-8412,Task,8,22,3,0,-1,True,False,False
+YARN-8411,Sub-task,8,35,4,1,4,True,False,False
+YARN-8392,Bug,5,33,3,0,0,True,False,False
+YARN-8304,Sub-task,0,33,3,2,5,True,False,False
+YARN-8379,Bug,36,62,1,2,0,True,False,False
+YARN-8364,Improvement,1,91,1,2,0,True,False,False
+YARN-8361,Improvement,12,56,3,0,-1,True,False,False
+YARN-8356,Wish,3,23,2,2,5,True,False,False
+YARN-8352,Improvement,1,28,4,1,-1,True,False,False
+YARN-8306,Improvement,0,38,1,0,0,True,False,False
+YARN-8345,New Feature,0,129,1,1,-1,True,False,False
+YARN-8333,Improvement,7,43,4,2,-1,True,False,False
+YARN-8320,New Feature,23,58,1,0,2,True,True,False
+YARN-8314,Sub-task,0,34,3,2,1,True,False,False
+YARN-8303,Sub-task,28,48,3,1,4,True,False,False
+YARN-8298,Sub-task,24,31,4,0,4,True,False,False
+YARN-8286,Sub-task,4,35,4,1,7,True,False,False
+YARN-8283,New Feature,3,120,4,0,0,True,False,False
+YARN-8256,New Feature,5,133,4,0,-1,True,False,False
+YARN-8250,Improvement,26,50,1,1,0,True,True,False
+YARN-8240,Sub-task,5,7,0,0,0,True,False,False
+YARN-8238,Improvement,1,27,4,0,-1,True,False,False
+YARN-8192,Sub-task,5,33,4,1,-1,True,False,False
+YARN-8186,Sub-task,5,20,2,1,3,True,False,False
+YARN-8178,New Feature,6,72,1,1,0,True,True,False
+YARN-8170,New Feature,0,91,1,2,0,True,False,False
+YARN-8157,Sub-task,1,39,3,2,1,True,False,False
+YARN-8146,Improvement,1,20,2,2,-1,False,True,False
+YARN-8137,Sub-task,10,21,1,1,0,False,True,False
+YARN-8134,Sub-task,5,15,1,2,-1,True,False,False
+YARN-8131,Bug,6,23,3,0,-1,True,False,False
+YARN-8104,Sub-task,14,12,3,0,8,True,False,False
+YARN-8103,Sub-task,23,19,3,0,8,True,False,False
+YARN-8100,Sub-task,13,17,3,0,8,True,False,False
+YARN-8092,Sub-task,7,19,3,1,8,True,False,False
+YARN-8081,Sub-task,6,13,4,0,4,True,False,False
+YARN-8080,Task,32,108,4,1,-1,True,False,False
+YARN-7307,Sub-task,16,29,4,0,-1,True,False,False
+YARN-8065,Bug,2,22,1,1,7,True,False,False
+YARN-8052,Sub-task,1,35,4,0,6,True,False,False
+YARN-8042,Sub-task,1,88,3,2,1,True,False,False
+YARN-8038,Sub-task,0,39,3,2,1,True,False,False
+YARN-8018,Sub-task,27,27,4,0,4,True,False,False
+YARN-8015,Sub-task,15,29,3,0,0,True,False,False
+YARN-8014,Bug,4,29,4,1,4,True,False,False
+YARN-8013,Sub-task,23,79,3,0,0,True,False,False
+YARN-8007,Sub-task,7,29,3,0,0,True,False,False
+YARN-7996,Sub-task,15,35,4,0,-1,True,False,False
+YARN-7976,Sub-task,6,18,3,2,1,True,False,False
+YARN-7974,Improvement,22,29,4,1,-1,True,False,False
+YARN-7972,Sub-task,16,34,3,0,0,True,False,False
+YARN-7939,Sub-task,44,32,4,0,4,True,False,False
+YARN-7934,Sub-task,9,27,1,2,0,True,False,False
+YARN-7931,Sub-task,14,21,3,0,1,True,False,False
+YARN-7930,Sub-task,3,27,3,0,8,True,False,False
+YARN-7929,Sub-task,20,57,1,2,-1,True,False,False
+YARN-7904,Sub-task,14,18,4,1,2,False,True,False
+YARN-7923,Bug,1,89,4,0,-1,False,True,False
+YARN-7900,Sub-task,15,30,4,1,4,True,False,False
+YARN-7882,Bug,3,72,4,2,-1,True,False,True
+YARN-7876,Bug,6,28,2,2,-1,True,False,False
+YARN-7871,Sub-task,13,24,3,0,8,True,False,False
+YARN-7863,Sub-task,45,14,3,0,0,True,False,False
+YARN-7858,Sub-task,3,29,3,0,0,True,False,False
+YARN-7856,Sub-task,8,27,3,0,8,True,False,False
+YARN-7854,Sub-task,0,55,3,0,-1,True,False,False
+YARN-7848,Sub-task,25,26,4,1,7,False,True,False
+YARN-7847,New Feature,0,37,4,2,5,True,False,False
+YARN-7842,Sub-task,5,19,1,1,9,True,False,False
+YARN-7839,Sub-task,10,61,1,2,0,False,True,False
+YARN-7831,Bug,1,29,4,0,-1,True,False,False
+YARN-7825,Bug,5,32,4,2,-1,True,False,False
+YARN-7812,New Feature,3,24,3,0,0,True,False,False
+YARN-7806,Bug,4,53,4,1,1,True,False,False
+YARN-7606,Sub-task,1,27,4,1,-1,False,True,False
+YARN-7790,Bug,8,78,1,1,-1,True,True,False
+YARN-7778,Sub-task,15,57,1,2,0,True,False,False
+YARN-7774,Sub-task,15,47,1,1,0,True,False,False
+YARN-7724,Sub-task,12,25,4,1,4,True,False,False
+YARN-7713,Improvement,6,18,4,2,-1,True,False,False
+YARN-7707,Sub-task,9,16,4,0,3,True,False,False
+YARN-7694,Sub-task,1,32,4,0,-1,True,False,False
+YARN-7686,New Feature,0,66,4,1,-1,True,False,False
+YARN-7672,Improvement,12,42,2,2,0,True,True,False
+YARN-7670,Sub-task,13,15,3,0,0,True,False,False
+YARN-7669,Sub-task,15,14,3,0,0,True,False,False
+YARN-7666,Sub-task,12,29,3,2,0,True,False,False
+YARN-7662,Bug,14,49,3,2,-1,True,False,False
+YARN-7660,Bug,0,30,4,1,9,True,False,False
+YARN-7657,Sub-task,9,42,0,0,0,True,False,False
+YARN-7655,Improvement,19,108,1,1,0,True,True,False
+YARN-7653,Sub-task,8,40,3,0,0,True,False,False
+YARN-7033,Improvement,16,26,4,0,-1,True,False,False
+YARN-7643,Sub-task,12,29,0,0,0,True,False,False
+YARN-7634,Sub-task,8,43,0,0,0,True,False,False
+YARN-7622,Improvement,19,29,2,2,1,True,True,False
+YARN-7621,Sub-task,16,45,0,0,0,True,False,False
+YARN-7612,Sub-task,51,24,3,0,0,True,False,False
+YARN-7605,Sub-task,39,71,4,1,-1,True,False,False
+YARN-7599,Sub-task,15,31,4,1,4,True,False,False
+YARN-7583,Improvement,0,37,4,1,2,False,True,False
+YARN-7540,Sub-task,17,100,4,1,-1,True,False,False
+YARN-7530,Sub-task,16,29,4,0,6,True,False,False
+YARN-7522,Sub-task,22,32,3,0,0,True,False,False
+YARN-7520,Sub-task,11,39,0,0,0,True,False,False
+YARN-7506,Sub-task,6,134,4,0,2,True,True,True
+YARN-7495,Improvement,4,25,1,2,0,False,True,False
+YARN-7494,Sub-task,65,22,1,2,0,False,True,False
+YARN-7492,Bug,4,11,2,2,-1,True,False,False
+YARN-7481,New Feature,8,75,1,0,-1,False,True,True
+YARN-7473,Sub-task,29,54,0,2,0,True,False,False
+YARN-7469,Bug,15,61,1,1,0,True,False,False
+YARN-7468,Task,14,19,1,1,-1,False,True,False
+YARN-7457,Sub-task,20,51,1,2,0,True,True,False
+YARN-7441,Sub-task,1,18,4,0,-1,True,False,False
+YARN-7438,Sub-task,12,38,3,0,0,True,False,False
+YARN-7423,Sub-task,4,4,4,2,5,True,False,False
+YARN-7419,Sub-task,16,56,0,0,0,True,False,False
+YARN-7405,Sub-task,0,30,1,1,-1,True,False,False
+YARN-7399,Improvement,6,182,4,0,6,True,True,False
+YARN-7384,Sub-task,5,11,4,0,4,True,False,False
+YARN-7376,Improvement,4,22,4,2,-1,True,False,False
+YARN-7368,Improvement,0,42,4,1,-1,True,False,False
+YARN-7297,Improvement,0,27,1,2,0,True,True,False
+YARN-7292,Sub-task,24,89,1,0,0,True,False,False
+YARN-7282,Improvement,1,16,4,0,2,True,False,False
+YARN-7273,Improvement,0,120,1,2,0,True,False,False
+YARN-7272,Sub-task,14,22,4,2,1,True,True,False
+YARN-7271,Sub-task,4,39,3,2,0,True,False,False
+YARN-7265,Wish,5,74,4,2,5,True,False,False
+YARN-7250,Sub-task,6,84,3,2,2,True,False,False
+YARN-7224,Sub-task,21,229,4,0,-1,True,False,True
+YARN-7218,Sub-task,18,143,4,2,6,True,False,False
+YARN-7217,Task,28,251,4,2,-1,True,True,False
+YARN-7215,Sub-task,10,64,4,2,6,True,False,False
+YARN-7193,Sub-task,8,45,4,2,6,True,False,False
+YARN-7192,Bug,19,29,4,1,-1,True,False,False
+YARN-1637,Sub-task,35,20,4,0,1,True,False,False
+YARN-7159,Sub-task,53,36,2,2,0,True,True,False
+YARN-7158,Sub-task,2,39,1,2,0,False,True,False
+YARN-7142,Sub-task,22,22,3,0,0,True,False,False
+YARN-7129,Sub-task,71,25,4,0,2,True,False,False
+YARN-7127,Sub-task,16,6,4,0,-1,True,False,False
+YARN-7117,New Feature,23,54,0,0,0,True,False,False
+YARN-7109,Sub-task,9,5,2,2,-1,True,False,False
+YARN-7107,Improvement,10,88,0,2,0,True,False,False
+YARN-7097,Sub-task,0,10,2,1,3,True,False,False
+YARN-7096,Sub-task,0,8,2,1,3,True,False,False
+YARN-7095,Sub-task,10,9,2,1,3,True,False,False
+YARN-7079,Improvement,5,28,4,0,0,True,False,False
+YARN-7069,Improvement,0,14,4,0,0,True,False,False
+YARN-7061,Sub-task,0,17,4,1,-1,True,True,False
+YARN-7059,Sub-task,2,25,3,1,1,True,False,False
+YARN-7055,New Feature,7,15,4,0,-1,True,False,False
+YARN-7054,New Feature,3,3,4,0,-1,True,False,False
+YARN-7053,Improvement,13,18,4,0,-1,True,False,False
+YARN-7037,Improvement,7,50,2,2,5,False,True,False
+YARN-1636,Sub-task,9,11,4,2,1,True,False,False
+YARN-7031,Sub-task,7,9,4,0,8,True,False,False
+YARN-7019,New Feature,7,54,4,1,-1,True,True,False
+YARN-7018,New Feature,13,47,4,0,9,True,False,False
+YARN-7017,New Feature,4,42,1,2,0,True,False,False
+YARN-7016,Bug,0,12,4,0,-1,True,False,False
+YARN-7010,Sub-task,9,8,2,1,3,True,False,False
+YARN-7006,Sub-task,12,36,4,0,-1,True,True,False
+YARN-7005,Improvement,7,50,1,2,0,False,True,False
+YARN-7004,Improvement,4,66,0,2,0,False,True,False
+YARN-7003,Bug,9,58,0,1,0,True,False,False
+YARN-6963,Improvement,3,45,1,1,-1,True,True,False
+YARN-6960,Bug,6,173,1,2,0,True,False,False
+YARN-1635,Sub-task,19,14,2,2,-1,True,False,True
+YARN-6947,Improvement,0,34,1,2,0,False,True,False
+YARN-6936,Sub-task,29,62,3,2,1,True,False,False
+YARN-6915,Bug,2,16,4,0,-1,True,False,True
+YARN-6903,Sub-task,11,47,4,0,6,True,True,False
+YARN-6896,Sub-task,7,22,2,1,3,True,False,False
+YARN-6889,Improvement,2,51,4,2,-1,False,True,False
+YARN-6877,Sub-task,22,21,2,2,5,True,False,False
+YARN-6876,Sub-task,9,20,2,2,5,True,False,False
+YARN-6875,New Feature,18,30,2,2,5,True,True,False
+YARN-6858,Sub-task,31,13,3,0,8,True,False,False
+YARN-6857,Sub-task,7,11,3,0,8,True,False,False
+YARN-6855,Sub-task,20,11,4,0,8,True,False,False
+YARN-6848,Sub-task,1,25,3,0,-1,True,False,False
+YARN-6842,Improvement,19,31,0,2,0,True,False,False
+YARN-6839,Sub-task,3,23,4,2,5,True,False,False
+YARN-6829,Sub-task,1,26,1,1,0,True,False,False
+YARN-6828,Bug,1,51,1,1,0,True,False,False
+YARN-1634,Sub-task,7,14,2,0,-1,True,False,False
+YARN-6820,Sub-task,42,106,3,2,1,True,True,False
+YARN-6791,Improvement,4,88,4,2,-1,True,True,False
+YARN-6789,Sub-task,29,13,4,0,-1,True,False,False
+YARN-6777,Sub-task,13,13,3,0,-1,True,False,False
+YARN-6774,Wish,1,46,4,1,4,True,False,False
+YARN-6753,Bug,6,33,4,0,-1,True,False,False
+YARN-1633,Sub-task,5,14,3,0,1,True,False,False
+YARN-6734,Sub-task,21,70,3,2,1,True,False,False
+YARN-6733,Sub-task,36,58,3,1,1,True,False,False
+YARN-6724,Sub-task,2,35,2,1,3,True,False,False
+YARN-6573,Improvement,3,22,1,2,0,True,True,False
+YARN-6704,Sub-task,11,39,4,1,-1,True,False,False
+YARN-6691,Sub-task,13,24,4,1,4,True,False,False
+YARN-6688,Improvement,4,22,4,2,0,True,False,False
+YARN-6679,Sub-task,17,24,1,1,0,False,True,False
+YARN-6671,Improvement,1,13,1,1,-1,True,False,False
+YARN-6670,Sub-task,21,6,1,2,-1,True,False,False
+YARN-6669,Sub-task,20,61,4,0,6,True,True,False
+YARN-6636,Sub-task,2,30,1,2,8,True,False,False
+YARN-6634,Improvement,19,35,4,2,-1,True,False,False
+YARN-6612,Sub-task,28,7,1,2,0,True,False,False
+YARN-6626,Sub-task,26,50,4,0,-1,True,False,True
+YARN-6621,Sub-task,0,45,3,0,0,True,False,False
+YARN-6620,Sub-task,44,21,4,0,-1,True,False,False
+YARN-6601,Sub-task,5,61,4,2,4,True,False,False
+YARN-6599,Sub-task,41,6,3,0,0,True,False,False
+YARN-6596,Sub-task,30,19,3,0,0,True,False,False
+YARN-6592,New Feature,8,22,3,0,0,True,False,False
+YARN-6586,Improvement,6,104,4,2,6,True,True,True
+YARN-6569,New Feature,0,73,3,0,8,True,False,False
+YARN-6567,Improvement,2,124,1,2,0,True,True,False
+YARN-6527,Sub-task,4,39,4,0,-1,False,True,False
+YARN-6524,Bug,2,54,1,2,-1,False,True,False
+YARN-6521,Improvement,9,41,2,2,5,True,False,False
+YARN-6511,Sub-task,9,42,2,1,3,True,False,False
+YARN-6507,Sub-task,26,25,4,0,-1,True,False,False
+YARN-6484,Sub-task,11,13,3,0,-1,True,False,False
+YARN-6469,Sub-task,1,17,0,0,0,True,False,False
+YARN-6466,New Feature,10,21,4,0,-1,True,False,False
+YARN-6462,Improvement,4,45,4,2,0,True,False,False
+YARN-6449,Improvement,6,96,1,2,0,True,True,False
+YARN-6440,Sub-task,2,60,0,1,0,True,False,False
+YARN-6426,Improvement,8,40,2,2,-1,True,True,False
+YARN-6407,Bug,10,86,2,2,-1,False,True,False
+YARN-6401,Improvement,3,51,4,1,-1,True,False,False
+YARN-6398,Sub-task,12,16,4,0,-1,True,False,False
+YARN-6396,Improvement,9,48,3,2,-1,False,True,False
+YARN-6390,Sub-task,1,27,4,0,6,True,False,False
+YARN-6345,Sub-task,15,45,1,0,-1,True,False,False
+YARN-6369,Sub-task,0,20,4,2,0,True,False,False
+YARN-6366,Bug,14,42,4,0,-1,True,False,False
+YARN-6364,Improvement,1,39,1,2,0,True,False,False
+YARN-6358,Improvement,0,42,1,2,0,False,True,False
+YARN-6357,Sub-task,25,107,4,2,6,True,False,False
+YARN-6355,Improvement,13,54,4,0,3,True,False,False
+YARN-6347,Sub-task,5,44,3,1,8,True,False,False
+YARN-6320,Bug,4,110,1,2,0,True,True,False
+YARN-6314,Sub-task,6,62,4,1,5,True,False,False
+YARN-6306,Sub-task,16,15,3,0,7,True,False,False
+YARN-6282,Sub-task,4,28,3,1,-1,True,False,False
+YARN-6266,New Feature,3,26,4,0,0,True,False,False
+YARN-6255,Sub-task,3,20,4,0,6,True,True,False
+YARN-6254,New Feature,4,25,4,2,-1,True,False,False
+YARN-6234,Sub-task,12,30,3,1,-1,True,False,False
+YARN-6224,Sub-task,2,38,1,2,0,False,True,False
+YARN-6223,New Feature,22,138,4,0,-1,True,False,True
+YARN-6207,Bug,48,23,4,1,0,True,False,False
+YARN-6192,Sub-task,2,15,4,0,-1,True,False,False
+YARN-6179,Sub-task,1,73,3,2,1,True,False,False
+YARN-6167,Sub-task,6,30,4,1,7,True,False,False
+YARN-6162,Bug,3,58,4,0,6,True,False,False
+YARN-6161,Bug,3,27,4,0,-1,True,False,False
+YARN-6160,Sub-task,9,27,4,0,2,True,False,False
+YARN-6137,Bug,8,41,2,2,-1,True,False,False
+YARN-6127,Sub-task,13,34,4,1,-1,True,False,False
+YARN-1474,Sub-task,62,13,4,2,4,True,False,False
+YARN-6121,Sub-task,2,19,4,1,7,True,False,False
+YARN-6101,Improvement,4,115,1,2,0,True,True,False
+YARN-6100,Sub-task,6,7,2,2,5,True,False,False
+YARN-6099,Sub-task,8,6,2,2,5,True,False,False
+YARN-6095,Sub-task,3,22,3,2,-1,True,False,False
+YARN-6080,Bug,1,17,2,0,-1,True,False,False
+YARN-6069,Sub-task,34,31,3,2,1,True,False,False
+YARN-6067,Sub-task,1,23,4,1,-1,True,False,False
+YARN-6058,Sub-task,7,53,3,2,1,True,False,False
+YARN-6045,Improvement,0,42,1,2,0,False,True,False
+YARN-6043,New Feature,4,103,4,0,-1,True,False,True
+YARN-6040,Sub-task,16,60,3,0,-1,True,True,False
+YARN-6037,Improvement,0,41,4,1,4,True,False,False
+YARN-6011,Sub-task,6,6,4,1,-1,True,False,False
+YARN-6008,Bug,15,63,4,1,4,True,False,False
+YARN-6005,Sub-task,2,12,4,0,-1,True,False,False
+YARN-5990,Bug,0,26,4,0,0,True,False,False
+YARN-5984,Bug,4,27,0,0,0,True,True,False
+YARN-5983,New Feature,8,90,4,0,-1,False,True,True
+YARN-5972,Bug,10,89,1,1,0,True,False,False
+YARN-5955,Improvement,8,12,0,1,-1,False,True,False
+YARN-5953,Sub-task,13,8,3,0,-1,True,False,False
+YARN-5952,Sub-task,18,10,3,0,-1,True,False,False
+YARN-5949,Sub-task,16,24,0,0,-1,True,False,False
+YARN-5940,Sub-task,0,33,4,1,6,True,False,False
+YARN-5932,Bug,16,39,3,0,-1,True,False,False
+YARN-5910,New Feature,41,81,4,2,-1,True,True,False
+YARN-5906,Sub-task,17,129,1,2,-1,True,True,False
+YARN-5905,Sub-task,8,60,4,1,-1,True,False,False
+YARN-5900,Improvement,1,60,1,2,0,True,True,False
+YARN-5889,Bug,86,28,1,2,0,False,True,False
+YARN-5887,Sub-task,2,61,1,1,0,False,True,False
+YARN-5886,Sub-task,4,50,1,1,0,True,False,False
+YARN-5883,Sub-task,4,29,2,2,-1,False,True,False
+YARN-5881,Improvement,15,40,0,2,0,True,False,False
+YARN-5872,Sub-task,6,21,2,1,3,True,False,False
+YARN-5869,Improvement,1,23,2,2,0,True,True,False
+YARN-5860,Bug,0,47,1,1,0,True,True,False
+YARN-5846,Improvement,6,108,1,2,0,True,True,False
+YARN-5832,Sub-task,0,27,1,1,0,True,False,False
+YARN-5820,Bug,15,14,4,2,4,True,False,False
+YARN-2215,Bug,4,18,1,1,0,True,False,False
+YARN-5789,Improvement,0,70,4,2,-1,True,False,True
+YARN-5780,New Feature,3,26,4,0,-1,True,False,False
+YARN-5769,Sub-task,4,20,4,1,-1,True,False,False
+YARN-5761,Sub-task,22,21,0,0,0,True,False,False
+YARN-5740,Sub-task,4,59,4,1,-1,True,False,False
+YARN-5739,Sub-task,50,79,3,2,1,True,False,False
+YARN-5734,New Feature,33,191,0,0,-1,True,True,False
+YARN-5732,New Feature,2,43,4,1,7,True,True,False
+YARN-5727,Sub-task,4,91,1,2,2,True,True,False
+YARN-5724,Task,7,74,0,0,0,True,True,False
+YARN-5718,Bug,11,72,4,1,-1,True,False,False
+YARN-5716,Sub-task,24,17,1,2,0,True,False,False
+YARN-5704,Task,23,23,4,0,2,True,False,False
+YARN-5702,Sub-task,4,37,4,0,-1,True,False,False
+YARN-5715,Sub-task,37,123,3,2,1,True,False,False
+YARN-5708,Sub-task,12,12,4,0,-1,True,False,False
+YARN-5699,Sub-task,44,45,3,1,1,True,False,False
+YARN-5692,Improvement,1,43,4,0,-1,True,False,False
+YARN-5683,New Feature,8,364,2,2,-1,True,True,False
+YARN-5681,Sub-task,3,29,4,2,1,True,False,False
+YARN-5677,Bug,24,91,4,1,7,True,True,False
+YARN-5648,Sub-task,11,6,4,0,-1,False,True,False
+YARN-5673,New Feature,12,197,4,0,2,True,True,False
+YARN-5668,Improvement,1,41,3,2,-1,True,False,False
+YARN-5667,Task,37,80,4,0,1,True,False,False
+YARN-5658,Improvement,6,28,4,0,-1,True,False,False
+YARN-5644,Sub-task,1,65,4,1,-1,True,False,False
+YARN-5638,Sub-task,20,36,3,2,1,True,False,False
+YARN-5637,Sub-task,15,21,4,0,4,True,False,False
+YARN-5606,New Feature,5,75,4,0,8,True,False,False
+YARN-5636,Improvement,2,63,1,1,0,True,True,False
+YARN-5634,Sub-task,16,27,3,2,0,True,False,False
+YARN-5629,Sub-task,2,25,4,1,1,True,False,False
+YARN-5627,Sub-task,5,34,3,2,1,True,False,False
+YARN-5626,Sub-task,6,39,3,2,1,True,False,False
+YARN-5605,Sub-task,7,20,1,1,0,True,False,False
+YARN-5619,Improvement,0,82,2,2,5,True,False,False
+YARN-5618,Sub-task,2,29,4,0,0,True,False,False
+YARN-5612,Sub-task,2,21,4,1,3,True,False,False
+YARN-5611,Sub-task,47,16,4,1,-1,True,False,False
+YARN-5593,Improvement,3,44,4,1,0,True,False,False
+YARN-5590,Sub-task,8,7,1,2,-1,True,True,False
+YARN-5587,Sub-task,25,14,1,0,-1,True,False,False
+YARN-5585,Sub-task,129,86,3,2,1,True,False,False
+YARN-5556,Sub-task,42,27,0,1,0,True,False,False
+YARN-5547,Improvement,37,47,2,1,-1,True,False,False
+YARN-5541,New Feature,1,20,1,1,0,True,False,False
+YARN-5532,New Feature,7,28,4,1,-1,True,False,False
+YARN-5531,Sub-task,23,39,2,1,3,True,False,False
+YARN-5520,Improvement,7,144,0,2,0,True,False,False
+YARN-5519,Sub-task,8,18,4,1,3,True,False,False
+YARN-5518,Improvement,1,74,4,0,6,True,True,False
+YARN-5517,Improvement,4,60,1,0,-1,True,False,False
+YARN-5516,Sub-task,12,13,3,0,-1,True,False,False
+YARN-5505,Sub-task,4,32,4,0,2,True,False,False
+YARN-5457,Sub-task,11,11,4,0,-1,True,True,False
+YARN-5501,Improvement,14,81,1,1,0,True,True,False
+YARN-5479,Improvement,11,185,1,2,0,False,True,False
+YARN-5478,Sub-task,10,20,4,0,0,True,False,False
+YARN-5473,Sub-task,15,18,1,2,0,True,False,False
+YARN-5468,New Feature,13,45,1,0,0,True,True,False
+YARN-5461,Sub-task,2,7,4,0,-1,True,False,False
+YARN-5452,Sub-task,1,16,3,2,-1,True,False,False
+YARN-5426,Bug,2,39,4,0,2,True,False,True
+YARN-5413,Sub-task,5,47,4,0,3,True,False,False
+YARN-5412,Sub-task,15,47,4,0,3,True,False,False
+YARN-5411,Sub-task,11,43,4,0,3,True,False,False
+YARN-5410,Sub-task,9,19,4,0,3,True,False,False
+YARN-5408,Sub-task,3,23,4,0,-1,True,False,False
+YARN-5407,Sub-task,5,27,4,0,-1,True,False,False
+YARN-5406,Sub-task,6,22,4,0,-1,True,False,False
+YARN-5396,New Feature,6,59,2,2,5,True,True,False
+YARN-5392,Sub-task,32,39,1,0,-1,True,False,False
+YARN-5391,Sub-task,11,7,2,1,3,True,False,False
+YARN-5390,Sub-task,8,22,1,0,3,True,False,False
+YARN-5357,Sub-task,5,161,3,2,-1,True,False,False
+YARN-5387,Sub-task,2,63,3,0,0,True,False,False
+YARN-5386,Sub-task,0,25,4,0,-1,True,False,False
+YARN-5385,Sub-task,12,23,4,0,-1,True,False,False
+YARN-5384,Sub-task,14,25,4,0,-1,True,False,False
+YARN-5366,Sub-task,40,77,4,1,2,True,False,False
+YARN-5355,New Feature,17,23,4,0,-1,True,False,False
+YARN-5352,Improvement,4,39,4,0,2,True,False,False
+YARN-5342,Sub-task,24,60,1,2,0,True,False,False
+YARN-5261,New Feature,11,28,1,2,0,True,True,False
+YARN-5330,Sub-task,8,28,4,0,-1,True,False,False
+YARN-5329,Sub-task,14,29,4,0,-1,True,False,False
+YARN-5328,Sub-task,20,30,4,0,-1,True,False,False
+YARN-5327,Sub-task,16,28,4,0,0,True,False,False
+YARN-5326,Improvement,3,40,0,0,0,True,False,False
+YARN-5325,Sub-task,18,17,2,1,3,True,False,False
+YARN-5324,Sub-task,21,14,2,1,3,True,False,False
+YARN-5321,Sub-task,13,12,1,2,0,True,False,False
+YARN-5307,Sub-task,13,24,2,1,3,True,False,False
+YARN-5304,Sub-task,13,69,4,0,-1,True,False,False
+YARN-5295,Bug,6,77,0,0,0,True,False,False
+YARN-5292,Sub-task,37,18,4,1,7,True,False,False
+YARN-5290,Bug,4,59,1,1,-1,True,False,False
+YARN-5281,Sub-task,8,35,3,0,1,True,True,False
+YARN-5280,New Feature,39,49,4,0,-1,False,True,False
+YARN-5256,Bug,24,16,3,2,8,True,False,False
+YARN-5255,Improvement,0,56,1,2,0,True,False,False
+YARN-5225,Improvement,0,39,1,0,0,True,False,False
+YARN-5220,New Feature,0,87,1,1,0,True,True,False
+YARN-5218,Sub-task,3,11,4,0,-1,True,False,False
+YARN-5215,Improvement,33,26,1,2,0,True,True,False
+YARN-5211,Improvement,1,42,1,1,0,True,False,False
+YARN-5207,New Feature,3,37,4,0,3,True,False,False
+YARN-5202,Improvement,8,167,4,2,-1,True,True,False
+YARN-5177,Improvement,1,47,4,0,2,True,False,False
+YARN-5175,Bug,1,69,4,2,-1,True,True,False
+YARN-5140,Bug,2,105,1,1,-1,False,True,False
+YARN-5139,New Feature,38,53,1,0,0,True,False,False
+YARN-5137,Sub-task,21,13,4,0,-1,False,True,False
+YARN-5113,Sub-task,17,10,4,0,0,True,True,False
+YARN-5086,Bug,1,32,4,1,-1,True,False,False
+YARN-5085,Bug,10,32,4,1,-1,True,False,False
+YARN-5081,Sub-task,3,31,4,1,7,True,True,False
+YARN-5079,New Feature,18,126,4,0,6,True,False,True
+YARN-5078,Bug,0,55,4,1,-1,True,False,False
+YARN-5076,Bug,36,26,4,0,-1,False,True,False
+YARN-5046,Task,2,36,0,0,0,True,False,False
+YARN-5025,New Feature,1,45,4,2,0,True,True,False
+YARN-5015,Sub-task,29,40,4,0,-1,True,False,False
+YARN-5008,Bug,7,39,2,2,-1,False,True,False
+YARN-4993,Sub-task,2,26,4,2,5,True,False,False
+YARN-4985,Sub-task,17,58,4,0,-1,True,False,False
+YARN-4958,Improvement,27,172,2,2,-1,True,False,False
+YARN-4966,Sub-task,9,19,4,2,5,True,False,False
+YARN-4963,Improvement,17,54,1,2,9,True,True,False
+YARN-4962,Improvement,4,37,1,2,0,True,False,False
+YARN-4952,Sub-task,0,46,4,0,-1,True,False,False
+YARN-4950,Test,1,23,4,0,0,True,False,False
+YARN-4948,Sub-task,25,34,4,0,-1,True,False,False
+YARN-4945,Bug,61,19,4,0,0,True,False,False
+YARN-4213,Bug,3,25,3,1,-1,True,False,False
+YARN-4904,Improvement,0,4,4,2,5,True,False,False
+YARN-4902,New Feature,18,52,4,0,0,True,False,True
+YARN-4864,Bug,0,71,1,1,0,True,False,False
+YARN-4889,Sub-task,14,25,1,1,0,True,False,False
+YARN-4888,Sub-task,26,29,1,1,0,True,False,False
+YARN-4887,Sub-task,15,29,1,1,-1,True,False,False
+YARN-4879,Improvement,12,54,1,1,-1,True,True,False
+YARN-4877,Sub-task,0,78,4,1,4,True,True,False
+YARN-4876,Improvement,16,36,4,1,-1,True,False,False
+YARN-4874,Sub-task,0,5,4,1,-1,True,False,False
+YARN-4873,Sub-task,0,5,1,1,0,True,False,False
+YARN-4870,Sub-task,0,7,4,1,-1,True,False,False
+YARN-4835,Sub-task,8,58,3,2,-1,True,False,False
+YARN-4830,Sub-task,11,11,1,0,-1,True,False,False
+YARN-4822,Sub-task,22,94,1,1,0,True,False,False
+YARN-4793,Bug,12,153,4,0,6,True,False,False
+YARN-4781,Sub-task,33,48,1,1,0,True,True,False
+YARN-4777,Improvement,4,65,0,0,0,True,True,False
+YARN-4773,Bug,18,43,2,2,5,True,False,False
+YARN-4766,Improvement,18,51,2,2,5,True,False,False
+YARN-4758,New Feature,6,103,4,1,6,True,True,False
+YARN-4757,New Feature,50,104,4,0,6,True,True,True
+YARN-4742,Bug,1,13,4,0,0,True,False,False
+YARN-4752,Bug,13,43,1,1,0,True,False,False
+YARN-4737,Bug,14,29,4,2,6,True,False,True
+YARN-4730,Bug,2,117,1,2,0,True,True,False
+YARN-4726,New Feature,5,109,4,0,6,True,False,False
+YARN-4725,Bug,3,83,4,1,-1,True,False,False
+YARN-4724,Bug,0,138,1,1,0,True,False,False
+YARN-4719,Improvement,22,64,1,2,0,False,True,False
+YARN-4716,Sub-task,7,85,2,2,1,True,False,False
+YARN-4715,Sub-task,12,29,4,0,-1,True,False,False
+YARN-4696,Sub-task,31,64,4,1,4,True,False,False
+YARN-4692,New Feature,13,65,4,0,6,True,False,False
+YARN-4683,Sub-task,6,18,3,0,-1,True,False,False
+YARN-4676,Sub-task,80,114,4,1,-1,True,True,False
+YARN-4665,Bug,10,144,4,1,-1,True,False,False
+YARN-4619,Improvement,0,62,1,0,-1,True,True,False
+YARN-4611,Bug,5,25,2,2,-1,True,False,False
+YARN-4479,Sub-task,48,34,1,1,0,True,False,False
+YARN-4602,Sub-task,2,96,4,1,-1,True,True,False
+YARN-4601,Sub-task,3,50,4,1,-1,True,False,False
+YARN-4600,New Feature,0,19,4,0,-1,True,False,False
+YARN-4599,Sub-task,43,28,1,2,-1,True,False,False
+YARN-4597,New Feature,54,24,4,1,-1,True,False,False
+YARN-4595,Sub-task,21,43,4,0,2,True,False,False
+YARN-4591,Improvement,7,33,4,2,-1,True,False,False
+YARN-4561,Sub-task,2,62,4,2,-1,True,False,False
+YARN-4578,Sub-task,6,25,4,0,2,True,False,False
+YARN-4576,Improvement,19,200,4,1,-1,True,False,False
+YARN-4559,Bug,12,15,2,0,-1,True,False,False
+YARN-4553,Sub-task,7,44,4,0,2,True,False,False
+YARN-4523,Sub-task,0,22,3,0,8,True,False,False
+YARN-4537,Sub-task,15,48,1,2,0,True,False,False
+YARN-4515,Sub-task,21,21,4,0,4,True,False,False
+YARN-4511,Sub-task,53,7,0,0,0,True,False,False
+YARN-3776,Sub-task,0,26,1,1,0,True,False,False
+YARN-4496,Improvement,20,55,4,1,1,True,True,False
+YARN-4473,Sub-task,0,34,3,1,4,True,False,False
+YARN-4471,Sub-task,0,19,3,0,4,True,False,False
+YARN-4466,Bug,6,24,4,1,4,False,True,False
+YARN-4349,New Feature,8,51,4,1,-1,True,False,False
+YARN-4447,Sub-task,29,8,3,2,-1,True,False,False
+YARN-4443,Sub-task,0,20,2,2,-1,True,False,False
+YARN-4438,Improvement,25,19,2,0,-1,True,False,False
+YARN-4435,Improvement,11,26,4,1,6,True,False,False
+YARN-4433,Improvement,0,58,1,2,0,True,False,False
+YARN-4425,Sub-task,9,50,1,2,8,True,False,False
+YARN-4420,Sub-task,17,18,3,1,-1,True,False,False
+YARN-4417,Bug,4,28,3,2,1,True,False,False
+YARN-4412,Sub-task,34,43,1,1,0,True,False,False
+YARN-4405,Sub-task,15,32,3,0,-1,True,False,False
+YARN-4390,Sub-task,69,42,1,1,0,True,True,False
+YARN-4368,Sub-task,9,19,4,2,1,True,True,False
+YARN-4360,Sub-task,14,33,1,2,0,True,True,False
+YARN-4353,Improvement,8,60,0,1,-1,False,True,False
+YARN-4335,Sub-task,19,25,1,0,-1,True,False,False
+YARN-4333,Bug,9,58,1,1,0,True,False,False
+YARN-4276,Improvement,2,33,4,2,2,True,False,False
+YARN-4275,Improvement,7,40,3,2,-1,True,False,False
+YARN-4271,Sub-task,8,33,4,0,-1,True,False,False
+YARN-4266,Sub-task,58,82,4,0,2,True,False,False
+YARN-4265,Sub-task,40,45,3,0,1,True,True,False
+YARN-4248,Sub-task,18,23,4,0,-1,True,False,False
+YARN-4245,Improvement,1,53,4,1,2,True,True,False
+YARN-4234,Sub-task,46,14,3,2,-1,True,False,False
+YARN-4233,New Feature,3,47,4,2,1,True,False,False
+YARN-4231,Sub-task,1,35,3,0,8,True,False,False
+YARN-4225,Bug,26,7,0,1,0,True,False,False
+YARN-4224,Sub-task,110,12,3,2,-1,True,False,False
+YARN-4221,Sub-task,9,33,3,2,1,True,False,False
+YARN-4219,Sub-task,28,32,3,2,1,True,True,False
+YARN-4205,Sub-task,53,26,4,1,-1,True,True,False
+YARN-4199,Improvement,2,50,2,2,-1,False,True,False
+YARN-4197,Sub-task,0,27,3,0,8,True,False,False
+YARN-4195,Sub-task,12,21,3,0,8,True,False,False
+YARN-4194,Sub-task,10,18,3,0,8,True,False,False
+YARN-4193,Improvement,0,31,3,0,8,True,False,False
+YARN-4189,Improvement,4,137,1,2,0,True,True,False
+YARN-4186,Improvement,4,22,4,2,-1,True,False,False
+YARN-4181,Bug,1,74,1,1,-1,True,True,False
+YARN-4176,Bug,20,49,4,1,8,True,False,False
+YARN-4166,Sub-task,16,10,1,2,-1,True,False,False
+YARN-4162,Sub-task,22,23,3,2,-1,True,False,False
+YARN-4161,New Feature,32,47,1,2,-1,True,True,False
+YARN-4132,Improvement,16,27,4,1,7,True,False,False
+YARN-4129,Sub-task,20,33,4,2,1,True,True,False
+YARN-4125,Improvement,1,42,1,2,0,True,False,False
+YARN-4117,Improvement,17,31,4,0,4,True,False,False
+YARN-4108,Sub-task,56,53,1,1,0,True,False,False
+YARN-4097,Sub-task,20,31,4,2,1,True,False,False
+YARN-4094,Bug,2,83,4,2,6,True,True,False
+YARN-4093,Sub-task,4,25,1,0,9,True,False,False
+YARN-4091,Sub-task,47,61,1,2,-1,True,False,False
+YARN-4088,Improvement,11,92,1,2,9,True,True,False
+YARN-4080,Improvement,2,124,1,2,0,True,True,False
+YARN-4077,Bug,0,39,1,1,0,True,False,False
+YARN-4075,Sub-task,41,16,3,2,-1,True,False,False
+YARN-4074,Sub-task,59,26,3,2,1,True,False,False
+YARN-4070,Bug,0,30,3,2,-1,True,False,False
+YARN-4062,Sub-task,29,28,3,2,-1,True,False,False
+YARN-4061,Sub-task,25,15,3,2,1,True,True,False
+YARN-4059,Improvement,11,100,1,1,0,True,False,False
+YARN-4056,New Feature,3,44,1,2,-1,True,True,False
+YARN-4041,Bug,27,36,4,1,-1,False,True,False
+YARN-4039,Improvement,5,209,1,2,0,True,True,False
+YARN-4024,Improvement,46,26,4,1,-1,True,False,False
+YARN-4023,Sub-task,18,10,3,2,1,True,False,False
+YARN-4014,Sub-task,33,15,4,0,-1,True,False,False
+YARN-4012,Bug,0,22,1,2,-1,True,False,False
+YARN-4007,Sub-task,19,23,4,0,2,True,True,False
+YARN-3998,Sub-task,56,48,4,1,7,True,False,False
+YARN-3997,Bug,10,106,1,1,0,True,False,False
+YARN-3983,Bug,10,99,1,2,0,True,False,False
+YARN-3981,Sub-task,11,48,3,2,1,True,False,False
+YARN-3980,Improvement,44,23,1,2,-1,True,False,False
+YARN-3955,Sub-task,24,48,0,2,0,True,False,False
+YARN-3970,Sub-task,21,19,1,2,-1,True,False,False
+YARN-3969,Sub-task,9,36,1,1,0,True,False,False
+YARN-3964,Sub-task,51,51,4,0,-1,True,True,False
+YARN-3698,Task,1,24,4,2,5,True,False,False
+YARN-3935,Improvement,0,47,4,1,-1,True,False,False
+YARN-3942,Sub-task,46,38,2,2,1,True,False,False
+YARN-3929,New Feature,6,50,2,2,5,True,False,False
+YARN-3928,Improvement,6,27,4,2,-1,True,False,False
+YARN-3927,Sub-task,1,34,4,0,-1,True,False,False
+YARN-3926,New Feature,21,78,1,0,0,True,True,False
+YARN-3923,New Feature,3,92,1,1,9,True,True,False
+YARN-3922,New Feature,7,95,1,1,9,True,True,False
+YARN-3920,Improvement,15,43,1,1,0,True,True,False
+YARN-3914,Sub-task,7,49,3,2,1,True,False,False
+YARN-3904,Sub-task,32,40,2,2,-1,True,False,False
+YARN-3901,Sub-task,89,84,3,2,1,True,False,False
+YARN-3895,Sub-task,29,11,3,0,-1,True,False,False
+YARN-3887,Sub-task,25,22,3,0,0,True,False,False
+YARN-3870,Sub-task,18,147,1,2,-1,True,False,False
+YARN-3867,Sub-task,13,17,4,0,-1,True,False,False
+YARN-3866,Sub-task,47,34,4,0,-1,True,False,False
+YARN-3864,Sub-task,37,24,3,2,1,True,False,False
+YARN-3863,Sub-task,50,32,3,2,1,True,False,True
+YARN-3851,Sub-task,3,53,4,0,2,True,False,False
+YARN-3822,Sub-task,1,14,2,1,1,False,True,False
+YARN-3818,Sub-task,1,26,0,2,-1,True,False,False
+YARN-3817,Sub-task,7,55,3,2,-1,True,False,False
+YARN-3816,Sub-task,109,71,2,2,-1,True,False,False
+YARN-3815,Sub-task,26,83,3,2,-1,True,False,False
+YARN-3808,Improvement,0,68,1,2,0,True,True,False
+YARN-3807,Improvement,0,102,1,2,0,True,True,False
+YARN-3806,Improvement,11,131,1,2,0,True,True,False
+YARN-3773,Sub-task,3,76,4,0,2,False,True,True
+YARN-3772,New Feature,0,36,3,2,-1,True,False,False
+YARN-3739,Sub-task,7,19,0,1,0,True,False,False
+YARN-3736,Sub-task,20,27,4,1,-1,True,False,False
+YARN-3719,New Feature,2,34,4,0,-1,False,True,True
+YARN-3718,Sub-task,5,66,4,0,2,False,True,False
+YARN-3692,Improvement,39,72,4,2,-1,True,False,False
+YARN-3691,Bug,1,26,1,2,0,False,True,False
+YARN-3684,Sub-task,7,45,4,0,0,True,True,False
+YARN-3680,Improvement,0,140,1,1,0,True,True,False
+YARN-3623,New Feature,35,43,4,2,1,True,False,False
+YARN-3673,Sub-task,10,16,2,1,3,True,False,False
+YARN-3672,Sub-task,7,21,2,1,3,True,False,False
+YARN-3671,Sub-task,10,16,4,1,3,True,False,False
+YARN-3666,Sub-task,16,43,2,1,3,True,False,False
+YARN-3665,Sub-task,1,20,4,1,3,True,False,False
+YARN-3664,Sub-task,12,21,2,1,3,True,False,False
+YARN-3663,Sub-task,14,17,2,1,-1,True,False,True
+YARN-3662,Sub-task,24,35,2,1,3,True,False,False
+YARN-3661,Sub-task,25,23,2,2,3,True,False,False
+YARN-3660,Sub-task,6,43,0,1,3,True,True,False
+YARN-3659,Sub-task,8,19,2,1,3,True,False,False
+YARN-3656,Sub-task,16,64,1,0,0,False,True,False
+YARN-3637,Sub-task,16,93,1,2,2,True,False,False
+YARN-3636,New Feature,11,142,2,2,-1,True,False,False
+YARN-3632,Sub-task,16,30,1,2,0,True,False,False
+YARN-3622,Sub-task,1,20,4,0,-1,True,False,False
+YARN-3616,Sub-task,3,50,2,1,1,True,True,False
+YARN-3611,Bug,16,119,4,0,2,True,True,False
+YARN-3595,Sub-task,4,127,2,2,0,False,True,False
+YARN-3588,Sub-task,4,39,3,2,1,True,False,False
+YARN-3557,New Feature,18,50,4,0,-1,False,True,True
+YARN-3542,Improvement,25,26,1,0,0,True,False,False
+YARN-3534,Improvement,50,19,1,2,0,True,False,False
+YARN-3510,Sub-task,14,42,1,2,0,True,False,False
+YARN-3508,Bug,33,48,2,2,-1,True,True,False
+YARN-3500,Improvement,6,45,4,2,0,False,True,False
+YARN-3499,Improvement,1,38,4,2,0,False,True,False
+YARN-3490,New Feature,0,72,4,0,-1,True,False,False
+YARN-3488,Sub-task,12,85,4,2,-1,True,False,False
+YARN-3482,Improvement,15,31,1,2,9,True,False,False
+YARN-3481,Improvement,14,29,1,1,9,True,False,False
+YARN-3474,New Feature,6,91,4,1,7,True,False,False
+YARN-3448,Sub-task,28,156,2,2,-1,True,True,False
+YARN-3445,Sub-task,26,37,4,1,-1,True,True,False
+YARN-3443,Sub-task,21,252,4,0,0,True,True,False
+YARN-3440,Bug,0,31,2,2,0,True,False,False
+YARN-3418,Improvement,3,64,4,1,-1,True,False,False
+YARN-3417,Bug,4,52,4,1,-1,True,True,False
+YARN-3411,Sub-task,130,42,2,0,1,False,True,True
+YARN-3402,Sub-task,2,36,4,0,6,True,True,False
+YARN-3401,Sub-task,9,57,3,0,-1,True,False,False
+YARN-3391,Sub-task,38,54,3,2,1,True,False,False
+YARN-3378,New Feature,9,38,4,2,-1,True,False,False
+YARN-3374,Sub-task,3,24,4,2,-1,True,False,False
+YARN-3373,Sub-task,0,52,4,2,-1,True,True,False
+YARN-3372,Sub-task,1,85,4,0,-1,True,False,False
+YARN-3368,Improvement,33,35,4,0,-1,True,True,False
+YARN-3366,Sub-task,31,30,4,0,-1,True,False,False
+YARN-3365,Sub-task,16,38,4,0,2,True,False,False
+YARN-3361,Sub-task,28,64,1,0,8,True,False,False
+YARN-3354,Sub-task,6,58,1,1,8,True,False,False
+YARN-3345,Sub-task,12,21,3,0,8,True,False,False
+YARN-3332,Improvement,14,50,1,2,0,True,False,False
+YARN-3319,Sub-task,19,75,1,2,0,True,False,False
+YARN-3318,Sub-task,37,12,4,0,4,True,False,False
+YARN-3317,Improvement,0,34,4,0,6,True,True,False
+YARN-3307,New Feature,21,23,1,2,0,True,True,False
+YARN-3306,Bug,10,77,1,0,0,True,True,False
+YARN-3299,Task,1,45,4,2,-1,True,False,False
+YARN-3250,Sub-task,28,26,4,0,-1,True,False,False
+YARN-3245,Sub-task,1,41,1,1,-1,True,False,False
+YARN-3212,Sub-task,37,49,4,1,-1,True,False,False
+YARN-3242,Bug,19,117,4,1,-1,True,False,False
+YARN-3235,Sub-task,2,5,0,0,0,True,False,False
+YARN-3233,Sub-task,1,14,0,2,0,True,False,False
+YARN-3228,Bug,1,42,1,2,0,True,False,False
+YARN-3214,Sub-task,13,54,1,2,8,True,True,False
+YARN-3208,Bug,1,15,4,1,-1,True,False,False
+YARN-3194,Bug,26,108,4,1,7,True,False,False
+YARN-3172,New Feature,9,38,4,0,2,True,False,False
+YARN-3167,Sub-task,5,35,4,2,1,True,False,False
+YARN-3166,Sub-task,20,72,4,0,6,True,False,False
+YARN-3148,Improvement,11,43,3,2,-1,True,False,False
+YARN-3139,Sub-task,35,24,2,2,-1,True,False,False
+YARN-3135,Improvement,0,60,4,0,6,True,True,False
+YARN-3127,Bug,26,34,4,1,1,True,False,False
+YARN-3125,Sub-task,14,22,4,0,1,True,False,False
+YARN-3119,Improvement,11,49,1,2,-1,True,True,False
+YARN-3118,Sub-task,3,30,3,2,1,True,True,False
+YARN-3115,Sub-task,7,38,4,1,1,True,False,False
+YARN-3104,Bug,18,75,4,1,-1,True,False,False
+YARN-3100,Improvement,38,57,0,0,-1,True,True,False
+YARN-3098,Sub-task,16,38,0,2,0,True,False,False
+YARN-3093,Sub-task,3,59,2,2,-1,True,False,False
+YARN-3092,Sub-task,6,55,1,2,0,True,False,False
+YARN-3091,Task,17,46,2,2,0,True,True,False
+YARN-3076,Sub-task,10,7,3,0,8,True,False,False
+YARN-3068,Bug,2,135,4,0,6,True,True,False
+YARN-3054,Bug,7,59,1,1,0,True,False,False
+YARN-3053,Sub-task,44,27,4,0,6,False,True,False
+YARN-3052,Sub-task,1,32,3,2,6,True,False,False
+YARN-3051,Sub-task,133,22,2,0,1,True,False,False
+YARN-3050,Sub-task,3,16,3,2,1,True,False,False
+YARN-3049,Sub-task,49,18,3,2,1,True,False,False
+YARN-3048,Sub-task,3,28,4,2,1,True,False,False
+YARN-3047,Sub-task,98,26,3,2,1,True,False,False
+YARN-3045,Sub-task,77,22,2,1,1,True,False,False
+YARN-3044,Sub-task,84,19,2,2,1,True,False,False
+YARN-3043,Sub-task,4,17,3,0,1,True,False,False
+YARN-3042,Sub-task,2,30,2,2,1,True,False,False
+YARN-3041,Sub-task,38,29,3,2,1,True,False,False
+YARN-3040,Sub-task,44,34,3,2,1,True,False,False
+YARN-3039,Sub-task,53,28,3,2,1,True,False,False
+YARN-3038,Sub-task,1,40,4,2,1,True,False,False
+YARN-3037,Sub-task,5,23,2,0,1,True,False,False
+YARN-3036,Sub-task,1,22,2,0,1,True,False,False
+YARN-3034,Sub-task,56,16,3,2,1,True,False,False
+YARN-3033,Sub-task,16,67,4,2,1,True,False,False
+YARN-3032,Sub-task,2,26,3,2,1,True,False,False
+YARN-3031,Sub-task,25,32,2,0,1,True,False,False
+YARN-3030,Sub-task,20,33,3,2,1,True,False,False
+YARN-3026,Task,15,56,1,0,0,True,False,False
+YARN-3025,Improvement,23,18,3,1,-1,True,False,False
+YARN-3003,Sub-task,21,28,3,0,8,True,False,False
+YARN-2995,Sub-task,11,35,1,2,0,True,False,False
+YARN-2986,Improvement,19,15,4,0,0,True,False,False
+YARN-2980,Improvement,18,43,4,0,-1,True,True,False
+YARN-2969,Sub-task,1,25,1,2,0,True,False,False
+YARN-2967,Sub-task,1,28,1,1,0,True,False,False
+YARN-2966,Sub-task,4,19,1,2,-1,True,False,False
+YARN-2965,Sub-task,23,19,1,2,-1,True,False,False
+YARN-2885,Sub-task,40,38,1,1,0,True,False,False
+YARN-2948,Sub-task,0,116,4,0,6,True,True,False
+YARN-2947,Sub-task,0,58,4,0,6,True,False,False
+YARN-2942,New Feature,40,64,2,2,5,True,False,False
+YARN-2928,New Feature,119,28,4,0,-1,True,True,False
+YARN-2926,Improvement,0,19,4,0,5,True,True,False
+YARN-2923,Sub-task,23,37,3,0,8,True,False,False
+YARN-2916,Bug,1,41,4,0,-1,True,False,False
+YARN-2915,New Feature,23,32,4,2,3,True,True,False
+YARN-2884,Sub-task,44,40,4,1,-1,True,True,False
+YARN-2903,Task,0,41,3,2,1,True,False,True
+YARN-2895,Sub-task,1,28,1,2,0,True,False,False
+YARN-2888,Sub-task,17,47,1,1,0,True,True,False
+YARN-2887,Sub-task,1,31,1,1,0,True,False,False
+YARN-2883,Sub-task,49,38,1,1,0,True,False,False
+YARN-2882,Sub-task,44,35,1,1,0,True,False,False
+YARN-2879,Bug,3,155,4,2,-1,False,True,False
+YARN-2877,New Feature,36,42,1,2,0,False,True,False
+YARN-2851,Sub-task,1,6,1,2,0,True,False,False
+YARN-2837,New Feature,22,34,4,1,1,True,False,False
+YARN-2848,Improvement,10,155,1,2,0,True,False,False
+YARN-2840,Improvement,3,27,3,2,1,True,False,False
+YARN-2835,Bug,0,13,4,0,-1,True,False,False
+YARN-2831,Bug,0,37,4,1,7,True,False,False
+YARN-2829,Bug,2,28,4,1,4,True,False,False
+YARN-2818,Bug,4,67,3,2,-1,True,False,False
+YARN-2817,New Feature,5,31,1,2,0,True,True,False
+YARN-2814,Improvement,4,18,4,1,4,True,True,False
+YARN-2800,Sub-task,32,67,3,0,8,True,False,False
+YARN-2793,Sub-task,0,51,1,1,-1,True,True,False
+YARN-2791,Sub-task,23,56,1,1,0,False,True,False
+YARN-2478,Sub-task,2,23,4,0,2,True,False,False
+YARN-2786,Sub-task,43,29,3,0,8,True,False,False
+YARN-2781,Sub-task,1,36,1,2,-1,True,True,False
+YARN-2770,Sub-task,7,55,4,1,-1,True,False,False
+YARN-2765,Sub-task,13,30,2,2,-1,True,True,True
+YARN-2745,Improvement,18,33,1,2,0,True,True,False
+YARN-2744,Sub-task,8,75,3,0,8,True,False,False
+YARN-2728,Sub-task,1,40,3,0,8,True,False,False
+YARN-2695,Sub-task,5,26,1,1,-1,True,False,False
+YARN-2693,Sub-task,14,52,3,0,0,True,False,False
+YARN-2691,Sub-task,5,18,3,0,0,True,False,False
+YARN-2690,Sub-task,12,18,4,0,0,True,False,False
+YARN-2681,New Feature,22,108,4,0,-1,True,False,False
+YARN-2673,Sub-task,11,20,4,1,1,True,False,False
+YARN-2672,Sub-task,6,23,2,0,0,True,False,True
+YARN-2653,Improvement,0,45,1,1,9,True,True,False
+YARN-2670,New Feature,2,144,1,2,0,True,True,True
+YARN-2664,Sub-task,44,17,4,0,-1,True,False,False
+YARN-2661,Bug,0,19,1,1,-1,True,False,False
+YARN-2632,Sub-task,16,13,4,0,-1,True,False,False
+YARN-2629,Sub-task,9,18,3,0,1,True,False,False
+YARN-2619,Sub-task,16,5,4,0,2,True,False,False
+YARN-2616,Sub-task,14,10,4,0,-1,True,False,False
+YARN-2613,Sub-task,7,20,4,1,7,True,False,False
+YARN-2599,Bug,25,17,4,1,-1,True,False,False
+YARN-2597,Bug,3,22,4,1,-1,True,False,False
+YARN-2427,New Feature,13,22,4,0,0,True,False,False
+YARN-2575,Sub-task,31,28,0,0,-1,True,False,False
+YARN-2573,Improvement,2,30,4,1,1,True,False,False
+YARN-2572,Improvement,0,27,0,0,0,True,False,False
+YARN-2571,Sub-task,23,41,4,0,4,True,False,False
+YARN-2552,Sub-task,3,60,4,0,2,True,False,False
+YARN-2548,Sub-task,0,46,2,2,5,False,True,False
+YARN-2533,Improvement,0,47,4,1,5,True,False,False
+YARN-2528,Sub-task,5,34,4,2,-1,False,True,False
+YARN-2521,Sub-task,1,29,4,2,1,True,True,False
+YARN-2520,Sub-task,2,70,4,2,1,True,True,False
+YARN-2495,Sub-task,108,41,3,0,8,True,False,False
+YARN-2518,New Feature,9,70,4,1,0,True,True,False
+YARN-2517,Sub-task,24,24,0,2,1,True,False,False
+YARN-2513,Sub-task,21,19,3,0,-1,True,False,False
+YARN-2503,Sub-task,4,23,3,2,8,True,False,False
+YARN-2501,Sub-task,7,8,3,0,8,True,False,False
+YARN-2496,Sub-task,27,62,3,0,8,True,False,False
+YARN-2494,Sub-task,23,71,3,0,8,True,False,False
+YARN-2488,Improvement,3,32,4,1,7,True,False,False
+YARN-2487,Improvement,4,70,1,1,0,True,False,False
+YARN-2475,Sub-task,8,23,1,1,0,True,False,False
+YARN-2468,Sub-task,30,34,1,1,5,False,True,False
+YARN-2466,New Feature,24,119,4,0,2,False,True,True
+YARN-2458,Sub-task,4,73,4,0,2,True,True,False
+YARN-2456,Sub-task,10,63,1,1,0,True,False,False
+YARN-2440,Bug,39,17,1,0,-1,True,False,False
+YARN-2439,Bug,0,58,4,0,2,True,False,False
+YARN-2434,Sub-task,5,22,4,1,7,True,False,False
+YARN-2420,Improvement,6,7,2,2,0,True,False,False
+YARN-2415,New Feature,7,22,4,0,-1,True,False,False
+YARN-2411,Improvement,12,152,0,0,0,True,False,False
+YARN-2408,New Feature,17,50,1,2,-1,True,False,False
+YARN-2386,Sub-task,1,51,0,0,0,True,False,False
+YARN-2378,Sub-task,21,23,0,0,0,True,False,False
+YARN-2331,Sub-task,17,61,4,1,-1,True,False,False
+YARN-2360,New Feature,14,20,0,2,0,True,False,False
+YARN-2310,Bug,3,33,3,2,6,False,True,False
+YARN-2344,New Feature,7,51,4,1,-1,True,True,False
+YARN-2320,Sub-task,9,27,4,2,-1,True,False,False
+YARN-2302,Sub-task,11,57,4,2,-1,True,False,False
+YARN-2299,Bug,5,159,4,1,-1,True,False,False
+YARN-2298,Sub-task,12,19,4,0,4,True,False,False
+YARN-2297,Sub-task,11,100,1,2,0,True,False,False
+YARN-2292,Bug,4,31,4,0,6,True,True,False
+YARN-2291,Bug,4,32,4,2,-1,True,True,False
+YARN-2278,Sub-task,4,35,4,0,-1,True,False,False
+YARN-2257,Improvement,16,85,0,2,0,True,False,False
+YARN-2253,Task,3,24,1,0,8,True,True,False
+YARN-2248,Sub-task,15,45,2,0,0,True,False,True
+YARN-2233,Sub-task,22,15,4,1,-1,True,False,False
+YARN-2227,Sub-task,1,69,4,1,7,True,False,False
+YARN-2207,Task,1,12,4,2,-1,True,False,False
+YARN-2198,Improvement,62,138,4,0,2,True,True,True
+YARN-2188,Sub-task,11,17,4,1,-1,True,False,False
+YARN-2186,Sub-task,14,22,4,1,-1,True,False,False
+YARN-2185,Improvement,34,25,2,2,2,True,False,False
+YARN-2181,Bug,41,39,1,1,7,True,False,False
+YARN-2179,Sub-task,27,32,4,1,-1,True,False,False
+YARN-2177,Sub-task,1,29,4,0,1,False,True,False
+YARN-2176,Improvement,16,32,1,2,0,False,True,False
+YARN-2174,Sub-task,7,20,4,2,-1,True,False,True
+YARN-2172,New Feature,3,90,4,0,0,True,True,False
+YARN-2069,Sub-task,36,37,1,2,0,True,False,False
+YARN-2154,Bug,19,21,1,1,0,True,True,False
+YARN-2151,Improvement,6,190,1,2,0,True,False,False
+YARN-2144,Improvement,32,28,1,1,7,True,False,False
+YARN-2141,Improvement,11,32,1,2,0,True,True,False
+YARN-2140,New Feature,25,6,1,0,2,True,True,True
+YARN-2139,New Feature,37,17,1,2,0,True,False,False
+YARN-2086,Sub-task,1,44,3,2,-1,True,False,False
+YARN-2113,Sub-task,123,31,0,1,0,True,True,False
+YARN-2102,Sub-task,19,31,3,2,1,True,False,False
+YARN-2099,Bug,8,14,1,2,0,True,False,False
+YARN-2098,Bug,18,19,1,2,0,True,False,False
+YARN-2084,New Feature,2,34,4,1,-1,True,False,False
+YARN-2082,New Feature,5,198,2,2,-1,True,True,False
+YARN-2080,Sub-task,17,21,4,0,0,True,False,False
+YARN-2049,Sub-task,13,5,4,2,-1,True,True,False
+YARN-2041,Improvement,8,56,1,2,0,False,True,False
+YARN-2040,Sub-task,2,11,4,1,7,True,False,False
+YARN-2037,Sub-task,26,14,4,1,-1,True,False,False
+YARN-2033,Sub-task,38,26,4,2,1,True,True,False
+YARN-2032,Sub-task,19,20,2,0,1,True,True,True
+YARN-2031,Sub-task,18,34,4,2,-1,True,False,False
+YARN-2026,Bug,30,205,1,2,0,True,False,False
+YARN-2010,Bug,59,41,4,1,-1,False,True,False
+YARN-2005,Improvement,62,26,4,2,-1,True,True,False
+YARN-2004,Sub-task,39,35,1,2,0,True,False,False
+YARN-2001,Sub-task,39,47,1,1,0,True,False,False
+YARN-2000,Sub-task,5,40,4,1,7,True,False,False
+YARN-1996,New Feature,4,125,4,1,-1,True,True,False
+YARN-1994,Improvement,50,45,4,0,-1,True,True,False
+YARN-1993,Bug,4,37,4,0,-1,False,True,False
+YARN-1990,Sub-task,3,40,1,2,0,False,True,False
+YARN-1983,Improvement,16,45,4,0,2,True,True,False
+YARN-1972,Sub-task,29,280,4,0,2,True,True,False
+YARN-1954,Improvement,23,45,2,2,-1,True,False,False
+YARN-1953,Improvement,0,30,4,0,-1,True,False,False
+YARN-1969,Improvement,11,107,1,2,0,True,False,False
+YARN-1968,Improvement,0,54,0,0,-1,True,False,False
+YARN-1963,New Feature,73,37,1,2,0,True,True,False
+YARN-1938,Sub-task,7,4,4,0,1,True,True,False
+YARN-1937,Sub-task,15,7,3,2,1,True,False,False
+YARN-1936,Sub-task,9,12,4,0,1,True,True,False
+YARN-1915,Sub-task,15,52,4,1,-1,True,False,False
+YARN-1913,Bug,17,29,1,2,0,True,True,False
+YARN-1871,Improvement,4,66,4,0,-1,True,False,False
+YARN-1864,New Feature,38,103,0,2,0,True,True,False
+YARN-1858,Improvement,1,48,1,1,-1,True,False,False
+YARN-1857,Sub-task,24,115,1,1,0,True,False,False
+YARN-1856,Sub-task,34,5,1,0,-1,True,False,False
+YARN-1838,Sub-task,9,43,4,2,1,True,False,False
+YARN-1815,Sub-task,35,41,4,1,-1,True,True,False
+YARN-1809,Sub-task,47,34,4,2,1,True,False,False
+YARN-1808,Sub-task,2,28,4,1,-1,True,False,False
+YARN-1804,Sub-task,1,43,4,1,-1,True,False,False
+YARN-1799,Sub-task,4,54,1,2,-1,True,False,False
+YARN-1769,Improvement,32,87,1,1,0,True,False,False
+YARN-1766,Sub-task,9,36,0,2,-1,True,False,False
+YARN-1755,Bug,2,76,4,2,6,True,True,False
+YARN-1743,New Feature,8,30,4,1,1,True,False,False
+YARN-1732,Sub-task,5,59,3,2,-1,True,False,False
+YARN-1730,Sub-task,13,22,2,2,1,True,False,False
+YARN-1727,Sub-task,2,36,4,1,1,True,False,False
+YARN-1717,Sub-task,18,32,3,2,1,True,False,False
+YARN-1714,Bug,5,45,3,2,0,True,False,False
+YARN-1712,Sub-task,14,31,0,0,-1,True,False,False
+YARN-1710,Sub-task,10,33,4,0,0,True,False,False
+YARN-1709,Sub-task,13,18,0,0,-1,True,False,False
+YARN-1708,Sub-task,12,24,4,0,0,True,False,False
+YARN-1707,Sub-task,30,56,0,0,0,False,True,False
+YARN-1695,New Feature,8,70,4,2,6,True,True,False
+YARN-1639,Sub-task,16,35,4,2,1,True,False,False
+YARN-1659,Sub-task,14,22,3,2,1,True,False,False
+YARN-1655,Sub-task,9,7,1,2,-1,True,False,False
+YARN-1654,Sub-task,1,8,1,2,0,True,False,False
+YARN-1651,Sub-task,38,7,1,2,-1,True,True,False
+YARN-1645,Sub-task,18,15,4,0,-1,True,False,True
+YARN-1621,Improvement,27,51,4,1,4,True,False,False
+YARN-1620,Improvement,0,31,4,1,4,True,False,False
+YARN-1609,Improvement,8,5,4,0,-1,True,False,False
+YARN-1520,Bug,2,7,3,2,0,True,False,False
+YARN-1593,Improvement,19,133,4,1,0,True,True,False
+YARN-1589,Improvement,0,60,3,2,0,True,False,False
+YARN-1585,Improvement,4,24,3,0,-1,True,False,False
+YARN-1584,Sub-task,8,47,0,1,1,True,False,False
+YARN-1582,Improvement,10,80,1,2,0,True,True,False
+YARN-1564,New Feature,18,20,4,0,6,True,False,False
+YARN-1558,Sub-task,7,47,4,1,0,True,False,False
+YARN-1543,Improvement,0,65,1,1,0,True,True,False
+YARN-1538,New Feature,3,23,4,0,6,True,False,True
+YARN-1530,Bug,29,49,4,0,6,True,False,True
+YARN-1512,Improvement,10,16,1,2,9,True,True,False
+YARN-1510,Sub-task,27,24,1,1,-1,True,False,False
+YARN-1509,Sub-task,31,21,1,1,-1,True,False,False
+YARN-1503,Improvement,17,55,4,1,-1,True,False,False
+YARN-1498,Sub-task,9,24,3,0,0,True,False,False
+YARN-1495,New Feature,20,110,0,0,0,True,False,False
+YARN-1493,Sub-task,26,37,0,2,0,True,False,False
+YARN-1492,New Feature,70,69,4,2,2,True,True,False
+YARN-1490,Sub-task,32,18,4,1,7,True,False,False
+YARN-1489,Bug,17,38,4,1,7,True,True,False
+YARN-1488,New Feature,12,23,1,0,0,True,True,False
+YARN-1462,Sub-task,23,13,4,2,-1,True,False,False
+YARN-1461,Sub-task,38,8,4,1,-1,True,False,False
+YARN-1436,Bug,0,38,0,1,-1,True,False,False
+YARN-1448,Sub-task,10,20,4,1,-1,True,False,False
+YARN-1440,Sub-task,8,76,2,2,5,True,False,False
+YARN-1421,Bug,3,98,4,1,7,True,False,False
+YARN-1404,New Feature,33,284,1,2,0,True,False,True
+YARN-1394,Sub-task,4,46,4,1,-1,True,False,False
+YARN-1392,New Feature,8,25,0,2,0,True,True,False
+YARN-1390,Improvement,30,45,4,0,6,True,False,False
+YARN-1389,Sub-task,34,33,4,1,-1,True,False,False
+YARN-1380,New Feature,1,34,2,2,-1,False,True,False
+YARN-1378,Sub-task,21,28,3,1,-1,True,False,False
+YARN-1372,Sub-task,43,86,4,1,7,True,False,False
+YARN-1371,Sub-task,1,41,4,1,-1,True,False,False
+YARN-1370,Sub-task,4,41,4,1,-1,True,False,False
+YARN-1369,Sub-task,1,41,4,1,-1,True,False,False
+YARN-1368,Sub-task,47,27,4,1,7,True,False,False
+YARN-1367,Sub-task,20,44,4,1,7,True,False,False
+YARN-1366,Sub-task,73,54,4,1,-1,True,False,False
+YARN-1362,Sub-task,6,29,4,1,7,True,False,False
+YARN-1360,Improvement,1,54,4,2,0,True,True,False
+YARN-1355,Sub-task,2,13,4,1,7,True,True,False
+YARN-1354,Sub-task,16,15,4,1,7,True,True,False
+YARN-1338,Sub-task,15,37,4,1,7,True,True,False
+YARN-1337,Sub-task,9,38,4,1,7,True,True,False
+YARN-1336,New Feature,20,14,4,1,7,True,False,False
+YARN-1324,Improvement,6,115,2,2,-1,True,True,False
+YARN-1318,Sub-task,23,26,4,1,6,True,False,False
+YARN-1317,Improvement,6,30,0,2,0,True,False,False
+YARN-1292,Sub-task,7,42,4,1,7,False,True,False
+YARN-1290,Improvement,7,44,1,2,0,True,True,False
+YARN-1276,Bug,3,6,4,1,7,False,True,False
+YARN-1253,New Feature,23,66,4,1,2,False,True,False
+YARN-1250,Sub-task,14,6,4,2,1,True,False,False
+YARN-1249,Sub-task,0,33,0,0,0,True,False,False
+YARN-1228,Improvement,6,117,3,2,0,True,False,False
+YARN-1210,Sub-task,20,69,4,1,7,True,True,False
+YARN-1200,Improvement,7,67,1,2,0,True,False,False
+YARN-1197,Task,157,42,1,1,0,True,False,False
+YARN-1187,Improvement,9,28,1,0,0,True,False,False
+YARN-1186,Improvement,0,20,1,2,0,True,False,False
+YARN-1177,Sub-task,7,20,0,1,1,True,True,False
+YARN-1155,Bug,4,20,4,0,-1,True,False,False
+YARN-1151,Improvement,30,56,4,0,5,False,True,False
+YARN-1133,Bug,0,17,3,2,-1,True,False,False
+YARN-1098,Sub-task,33,41,4,1,-1,True,False,False
+YARN-1127,Bug,5,103,1,1,0,True,False,False
+YARN-1125,Sub-task,5,18,4,1,-1,True,False,False
+YARN-1124,Bug,4,25,4,1,4,True,False,False
+YARN-1117,Improvement,4,18,4,0,-1,True,False,False
+YARN-1115,Improvement,18,139,0,2,0,True,False,False
+YARN-1105,New Feature,2,25,1,1,-1,True,False,False
+YARN-1104,Sub-task,5,21,2,1,5,True,False,False
+YARN-1089,Sub-task,13,18,1,2,0,True,False,False
+YARN-1080,Improvement,5,75,4,2,5,True,False,False
+YARN-1067,Improvement,5,25,1,1,9,True,False,False
+YARN-1065,Task,9,30,4,1,7,True,False,False
+YARN-1063,Sub-task,29,336,4,0,2,True,True,False
+YARN-1062,Bug,2,39,1,2,-1,False,True,False
+YARN-1052,Sub-task,0,22,0,0,0,True,False,False
+YARN-1051,Improvement,29,30,1,0,0,True,True,False
+YARN-1041,Sub-task,21,31,4,1,7,True,False,False
+YARN-1040,New Feature,30,51,4,1,0,True,False,False
+YARN-1037,Bug,0,28,3,2,-1,True,False,False
+YARN-1033,Sub-task,12,30,3,1,-1,True,False,False
+YARN-1029,Sub-task,75,24,2,0,-1,True,False,False
+YARN-1028,Sub-task,66,28,4,0,1,True,True,False
+YARN-1027,Sub-task,36,15,4,0,6,True,False,False
+YARN-1024,Improvement,34,41,1,0,0,True,False,False
+YARN-1023,Sub-task,12,7,3,2,-1,True,False,False
+YARN-1010,Improvement,9,36,1,2,-1,False,True,False
+YARN-1021,New Feature,52,210,1,2,0,True,True,True
+YARN-1020,Improvement,4,99,4,2,2,True,False,False
+YARN-1019,Improvement,11,50,2,2,4,False,True,False
+YARN-1016,Sub-task,7,43,4,0,5,True,True,False
+YARN-1015,Sub-task,15,25,1,1,9,True,True,False
+YARN-1014,Improvement,11,30,1,1,-1,True,False,False
+YARN-1013,Sub-task,14,24,1,1,9,True,True,False
+YARN-1011,New Feature,67,26,1,1,0,True,True,False
+YARN-1001,Task,36,25,4,2,0,True,False,False
+YARN-1000,Sub-task,1,54,4,0,-1,True,False,False
+YARN-997,Sub-task,3,16,4,0,-1,True,False,False
+YARN-986,Sub-task,38,45,4,1,4,True,False,False
+YARN-977,Improvement,3,58,1,2,0,True,False,False
+YARN-975,Sub-task,30,12,4,0,1,True,False,False
+YARN-972,Improvement,24,193,1,2,0,True,True,False
+YARN-896,New Feature,40,29,4,0,-1,False,True,False
+YARN-958,Bug,1,86,4,1,9,True,False,False
+YARN-957,Bug,19,105,1,1,-1,True,False,False
+YARN-953,Sub-task,19,6,4,2,-1,True,False,False
+YARN-951,Bug,3,141,1,2,-1,True,False,False
+YARN-950,Sub-task,6,45,2,2,5,True,False,False
+YARN-926,Bug,30,30,4,1,-1,True,False,False
+YARN-925,Sub-task,33,18,3,2,1,True,False,False
+YARN-941,Sub-task,30,70,4,1,-1,True,False,False
+YARN-921,Sub-task,4,20,3,0,-1,True,False,False
+YARN-914,New Feature,41,45,4,1,-1,True,True,False
+YARN-913,New Feature,56,43,4,1,6,True,False,False
+YARN-911,Bug,0,26,4,2,5,True,False,False
+YARN-910,Improvement,14,29,4,1,-1,False,True,False
+YARN-904,Improvement,2,26,4,0,6,True,True,False
+YARN-875,Bug,14,19,2,2,-1,True,False,False
+YARN-867,Bug,36,31,4,1,7,False,True,False
+YARN-851,Sub-task,13,17,1,0,2,True,False,False
+YARN-824,Sub-task,3,18,4,0,-1,True,False,False
+YARN-813,Improvement,0,68,3,0,-1,True,False,False
+YARN-810,Improvement,33,268,1,2,-1,True,False,False
+YARN-801,Improvement,5,27,3,2,-1,True,False,False
+YARN-781,Sub-task,13,9,4,2,-1,True,False,False
+YARN-789,Improvement,12,253,1,2,0,True,True,False
+YARN-785,Improvement,1,35,4,1,-1,True,False,False
+YARN-779,Bug,13,62,1,1,0,True,False,False
+YARN-771,Sub-task,16,11,3,0,-1,True,False,False
+YARN-747,Improvement,1,26,1,0,0,True,False,False
+YARN-740,Task,1,11,4,0,-1,True,False,False
+YARN-732,New Feature,4,53,4,0,2,True,False,False
+YARN-717,Sub-task,8,29,2,0,-1,True,False,False
+YARN-714,Sub-task,7,28,4,1,7,True,False,False
+YARN-710,Improvement,23,31,3,1,-1,True,False,False
+YARN-707,Improvement,40,11,3,2,-1,True,False,False
+YARN-696,Improvement,32,62,4,1,-1,True,False,False
+YARN-694,Sub-task,13,78,4,1,-1,True,False,False
+YARN-693,Sub-task,7,94,4,1,-1,True,False,False
+YARN-692,Sub-task,11,33,4,1,9,True,False,False
+YARN-682,Sub-task,1,26,1,2,-1,True,False,False
+YARN-679,New Feature,43,35,4,1,4,True,False,False
+YARN-672,Sub-task,3,20,4,1,-1,True,False,False
+YARN-671,Sub-task,7,6,4,1,7,True,False,False
+YARN-668,Sub-task,32,32,4,0,-1,True,False,False
+YARN-666,Improvement,16,17,3,0,4,True,False,False
+YARN-641,Improvement,8,18,4,1,4,True,False,False
+YARN-624,Sub-task,27,34,1,0,0,True,False,False
+YARN-616,New Feature,4,18,1,2,0,True,False,False
+YARN-613,Sub-task,24,19,4,1,7,True,False,False
+YARN-611,Sub-task,45,192,4,1,4,True,False,False
+YARN-608,Bug,0,34,4,0,-1,True,False,False
+YARN-600,Improvement,7,35,1,0,-1,True,False,False
+YARN-599,Bug,6,118,0,1,-1,True,False,False
+YARN-596,Bug,27,50,1,2,0,True,False,False
+YARN-595,Sub-task,5,11,3,2,0,True,False,False
+YARN-589,Improvement,7,20,0,2,0,True,False,False
+YARN-582,Sub-task,22,25,4,1,7,True,False,False
+YARN-571,Sub-task,15,39,4,1,-1,True,False,False
+YARN-569,Sub-task,22,408,1,2,0,True,False,False
+YARN-568,Sub-task,14,38,4,1,0,True,False,False
+YARN-567,Sub-task,3,109,1,2,0,True,False,False
+YARN-563,Sub-task,31,23,1,2,-1,True,False,False
+YARN-561,Sub-task,37,39,4,1,7,True,False,False
+YARN-559,Sub-task,0,14,4,0,-1,True,False,False
+YARN-558,Improvement,2,68,4,1,-1,True,False,False
+YARN-556,New Feature,38,27,4,1,-1,True,False,False
+YARN-549,Sub-task,20,41,4,1,-1,True,False,False
+YARN-528,Sub-task,15,63,4,0,-1,True,True,False
+YARN-521,Sub-task,27,19,4,2,4,True,False,False
+YARN-514,Sub-task,25,34,2,1,-1,False,True,False
+YARN-513,Sub-task,47,14,4,1,-1,True,False,False
+YARN-506,Bug,8,20,4,0,2,True,False,False
+YARN-494,Bug,3,51,4,1,7,True,False,False
+YARN-482,Sub-task,14,47,1,2,0,True,False,False
+YARN-479,Bug,14,20,4,1,9,True,False,False
+YARN-471,Bug,2,12,4,1,-1,True,False,False
+YARN-462,New Feature,11,344,1,2,-1,True,False,False
+YARN-453,Improvement,1,24,1,2,0,False,True,False
+YARN-445,Task,40,52,4,0,-1,True,False,False
+YARN-443,Improvement,30,39,1,1,0,False,True,False
+YARN-438,Bug,2,45,4,1,7,True,False,False
+YARN-431,Task,0,7,4,0,5,True,False,False
+YARN-430,Sub-task,2,27,2,2,-1,True,False,False
+YARN-424,Improvement,5,50,1,2,0,True,False,False
+YARN-423,Sub-task,0,45,1,2,0,True,True,False
+YARN-421,Sub-task,3,35,4,0,-1,True,True,False
+YARN-420,Improvement,16,67,4,0,7,True,True,False
+YARN-336,Bug,2,34,1,2,0,True,False,False
+YARN-419,Improvement,6,61,4,1,-1,True,False,False
+YARN-418,Improvement,0,38,4,0,6,True,True,False
+YARN-417,Sub-task,61,12,4,1,9,True,True,False
+YARN-415,New Feature,117,88,1,2,-1,True,False,True
+YARN-405,Improvement,0,26,4,0,0,False,True,False
+YARN-393,Sub-task,0,21,1,2,0,True,False,False
+YARN-386,Bug,1,29,3,0,4,True,False,False
+YARN-378,Sub-task,57,16,0,1,-1,True,False,False
+YARN-373,Improvement,3,77,1,1,-1,True,False,False
+YARN-371,Sub-task,18,191,1,2,0,True,True,False
+YARN-366,New Feature,17,78,2,2,1,True,False,False
+YARN-358,Bug,8,29,4,0,-1,True,False,False
+YARN-333,Bug,21,44,0,2,0,True,False,False
+YARN-327,New Feature,0,17,1,2,0,True,True,False
+YARN-326,New Feature,30,37,1,2,0,True,False,False
+YARN-321,Improvement,46,85,4,2,-1,True,True,False
+YARN-314,Sub-task,14,37,1,2,0,True,False,False
+YARN-311,Sub-task,60,70,1,2,-1,True,False,False
+YARN-309,Sub-task,18,5,4,1,9,True,False,False
+YARN-304,Sub-task,10,85,4,1,-1,True,True,False
+YARN-291,New Feature,42,46,1,0,0,True,False,False
+YARN-286,New Feature,5,14,4,0,6,True,False,False
+YARN-285,Improvement,10,73,4,1,-1,True,False,False
+YARN-279,Improvement,8,38,4,0,-1,True,True,False
+YARN-276,Bug,30,27,1,2,0,True,False,False
+YARN-273,New Feature,1,18,4,1,-1,True,False,False
+YARN-265,Improvement,2,22,1,2,0,True,False,False
+YARN-261,New Feature,30,76,4,1,-1,True,False,False
+YARN-257,Improvement,4,60,4,1,-1,True,False,False
+YARN-256,Improvement,12,55,4,2,-1,False,True,False
+YARN-250,Improvement,4,99,4,2,0,True,True,False
+YARN-247,Improvement,0,11,0,2,0,True,False,False
+YARN-238,Improvement,4,32,1,2,-1,True,False,False
+YARN-232,Sub-task,1,16,2,1,-1,True,False,False
+YARN-231,Sub-task,21,12,2,1,-1,True,False,False
+YARN-230,Sub-task,21,39,4,1,4,True,False,False
+YARN-222,Improvement,2,21,0,2,0,True,False,False
+YARN-197,New Feature,3,22,4,2,5,True,False,False
+YARN-196,Bug,22,16,4,1,7,True,True,False
+YARN-195,Sub-task,4,25,4,1,-1,True,False,False
+YARN-191,Improvement,1,30,4,0,2,False,True,False
+YARN-160,Improvement,33,57,1,2,0,True,False,False
+YARN-153,New Feature,22,53,4,2,6,True,True,True
+YARN-149,New Feature,24,26,4,1,-1,True,False,False
+YARN-128,New Feature,48,21,4,1,-1,True,False,False
+YARN-125,Sub-task,1,25,4,1,4,False,True,False
+YARN-120,Sub-task,5,23,4,1,4,False,True,False
+YARN-119,Sub-task,11,44,2,1,-1,True,False,False
+YARN-118,Sub-task,3,37,4,1,-1,True,False,False
+YARN-117,Improvement,33,388,4,1,-1,True,False,False
+YARN-111,Improvement,9,20,1,2,0,True,False,False
+YARN-103,Sub-task,36,30,4,0,4,True,True,False
+YARN-91,Task,2,11,4,2,-1,True,False,False
+YARN-90,Sub-task,46,30,2,1,-1,True,False,False
+YARN-80,Improvement,11,51,1,2,0,False,True,False
+YARN-78,Bug,15,11,4,0,4,True,False,False
+YARN-74,Bug,3,69,4,1,7,True,False,False
+YARN-73,Bug,6,81,4,1,7,True,False,False
+YARN-72,Bug,21,37,4,1,7,True,False,False
+YARN-60,Sub-task,19,28,4,1,-1,True,False,False
+YARN-45,Bug,57,54,1,1,0,True,True,False
+YARN-41,New Feature,56,15,4,1,7,True,False,False
+YARN-40,Bug,24,16,4,1,4,True,False,False
+YARN-39,Sub-task,36,29,2,1,-1,True,False,False
+YARN-34,Improvement,0,18,4,0,4,True,False,False
+YARN-29,Sub-task,11,24,4,0,4,True,True,False
+YARN-19,New Feature,11,114,1,2,0,True,False,False
+YARN-18,New Feature,67,32,4,0,0,True,True,False
+YARN-3,Sub-task,76,5,1,0,2,True,True,False
+YARN-1,Task,7,14,4,0,2,True,True,False
+YARN-530,Sub-task,33,29,4,0,6,True,False,False
+YARN-221,Sub-task,46,38,2,2,5,True,True,False
+YARN-3657,Sub-task,1,26,4,0,3,True,True,False
+YARN-3658,Sub-task,2,21,2,1,3,True,False,False
+YARN-4858,Improvement,8,30,4,1,4,True,False,False
+YARN-6667,Sub-task,1,51,1,1,-1,True,True,False
+YARN-6476,Sub-task,2,12,3,2,-1,True,False,False
+YARN-5764,New Feature,44,42,1,2,0,True,True,False
+YARN-6483,Improvement,25,92,4,1,-1,True,False,False
+YARN-5864,New Feature,31,183,1,2,0,True,False,False
+YARN-5871,New Feature,6,13,0,0,8,True,False,False
+YARN-6740,Sub-task,7,22,2,1,3,True,False,False
+YARN-7402,New Feature,8,68,1,1,3,True,True,False
+YARN-7403,Sub-task,8,36,1,1,0,True,False,False
+YARN-8234,Improvement,17,136,4,2,1,True,False,False
+YARN-8118,Sub-task,8,78,4,0,-1,False,True,False
+YARN-7834,Sub-task,3,37,2,2,0,True,True,False
+YARN-7898,Sub-task,9,22,4,0,3,True,False,False
+YARN-7899,Sub-task,6,177,1,1,-1,True,True,False
+YARN-8972,Sub-task,14,21,2,2,3,True,False,False
+YARN-9075,Sub-task,13,15,4,0,-1,False,True,False
+YARN-9342,Improvement,4,17,2,2,5,False,True,True
+YARN-9869,New Feature,4,30,1,2,0,False,True,False
+YARN-9608,Sub-task,16,56,4,1,-1,True,False,False
+YARN-8873,Sub-task,16,15,4,0,-1,True,False,True
+YARN-8900,Sub-task,8,20,2,1,3,True,False,False
+YARN-9834,Bug,19,161,4,0,2,True,True,False
+YARN-9708,New Feature,6,64,4,2,3,True,True,False
+YARN-10174,Sub-task,8,18,2,2,3,True,False,False
+YARN-10775,Bug,15,63,4,2,3,True,False,False
+YARN-10306,Sub-task,0,72,2,2,5,True,False,False
+YARN-10538,Improvement,6,42,4,1,-1,True,False,False
+YARN-10547,Improvement,14,40,3,2,-1,True,False,False
+YARN-10559,Improvement,18,54,1,1,0,True,True,False
+YARN-10638,Sub-task,1,51,0,2,0,True,False,False
+YARN-10444,Improvement,4,74,1,2,2,True,False,False
+YARN-10680,Bug,2,17,2,1,-1,True,False,False
+YARN-10886,Sub-task,0,51,1,2,0,True,False,False
+YARN-10888,Improvement,0,53,1,2,0,True,False,False
+YARN-11057,Improvement,0,87,2,2,-1,False,True,False
+YARN-10965,Sub-task,1,27,1,2,0,True,False,False
+YARN-11034,Sub-task,1,19,2,2,0,True,False,False
+YARN-11015,Sub-task,1,165,1,1,0,True,False,False
+YARN-11066,Bug,2,69,0,0,0,True,False,False
+YARN-11104,Improvement,1,30,1,2,0,True,False,False
+YARN-11090,Sub-task,1,11,4,0,3,True,False,False
+YARN-11095,Improvement,0,63,1,2,0,True,True,False
+YARN-11096,Sub-task,4,21,1,2,-1,True,False,False
+YARN-11092,Bug,8,32,3,0,4,False,True,True
+YARN-11084,New Feature,0,43,3,0,8,True,False,False
+YARN-11087,Bug,2,81,1,1,8,True,False,False
+YARN-11110,Improvement,2,30,1,2,-1,True,True,False
+YARN-11199,Improvement,2,43,4,0,-1,False,True,True
+YARN-11276,Improvement,0,18,1,2,-1,False,True,False
+YARN-11188,Bug,0,798,2,2,5,True,False,False
+YARN-11252,Sub-task,0,9,2,1,3,True,False,False
+YARN-11122,Sub-task,2,88,2,2,-1,True,True,False
+YARN-11126,Bug,6,80,3,0,-1,False,True,False
+YARN-11134,Sub-task,0,20,4,0,8,True,False,False
+YARN-11140,Sub-task,0,21,4,0,8,True,False,False
+YARN-11152,Bug,0,89,0,2,0,True,False,False
+YARN-11327,Sub-task,0,63,4,2,3,True,False,False
+YARN-11331,Bug,4,101,4,0,-1,False,True,True
+YARN-11332,Sub-task,0,41,0,2,0,True,False,False
+YARN-11411,New Feature,0,141,1,2,0,True,True,False
+YARN-11412,Sub-task,0,76,2,2,0,True,True,False
+YARN-11333,Improvement,0,15,4,2,3,True,False,False
+YARN-11335,New Feature,0,61,3,2,-1,True,False,True
+YARN-11340,Sub-task,0,39,0,2,0,False,True,False
+YARN-11300,Improvement,0,42,1,2,0,True,False,False
+YARN-11423,Improvement,0,25,4,0,3,True,False,False
+YARN-11425,Improvement,0,30,2,1,3,True,False,False
+YARN-11309,Bug,1,84,4,0,-1,False,True,False
+YARN-11315,Sub-task,0,24,4,0,3,True,False,False
+YARN-11345,Sub-task,0,7,4,2,3,True,False,False
+YARN-11391,New Feature,0,67,4,0,-1,True,False,False
+YARN-11303,Improvement,2,17,3,0,-1,False,True,True
+YARN-11351,Improvement,1,46,4,0,3,True,False,False
+YARN-11352,New Feature,2,31,1,2,0,True,False,False
+YARN-11354,Sub-task,0,15,4,2,3,True,False,False
+YARN-11355,Bug,3,48,0,1,4,True,False,False
+YARN-11356,Improvement,1,37,3,0,-1,False,True,True
+YARN-11358,Sub-task,0,44,2,1,3,True,False,False
+YARN-11401,Improvement,1,46,0,1,-1,True,False,False
+YARN-11361,Improvement,1,26,3,0,-1,False,True,True
+YARN-11448,Sub-task,2,155,2,1,-1,True,True,False
+YARN-11440,Sub-task,0,10,0,0,0,True,False,False

@@ -1,0 +1,6 @@
+lda_baseline_topic,n_issues,median_comments,median_description_length
+0,112,7.0,39.0
+1,354,8.0,45.0
+2,156,8.0,30.0
+3,234,8.0,29.5
+4,689,7.0,34.0

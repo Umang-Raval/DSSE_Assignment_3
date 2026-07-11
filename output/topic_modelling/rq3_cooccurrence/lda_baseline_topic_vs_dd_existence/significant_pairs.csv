@@ -1,0 +1,5 @@
+lda_baseline_topic,dd_existence,std_residual
+1,True,-3.063658624559842
+1,False,3.063658624559837
+3,True,2.386042044393648
+3,False,-2.3860420443936476
