@@ -8,6 +8,7 @@ DL_MANAGER_DIR = (
 )
 
 EXCEL_FILE = DATA_DIR / "Issues.xlsx"
+BOT_AUTHORS_FILE = DATA_DIR / "Bot_Comments.rtf"
 RAW_ISSUES_JSON = OUTPUT_DIR / "raw_issues.json"
 RAW_ISSUES_CSV = OUTPUT_DIR / "raw_issues.csv"
 PROCESSED_ISSUES_JSON = OUTPUT_DIR / "processed_issues.json"

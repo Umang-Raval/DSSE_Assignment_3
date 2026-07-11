@@ -5,6 +5,7 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
+from bot_filter import filter_bot_comments, load_bot_authors
 from config import (
     EXCEL_FILE,
     ISSUE_COLUMN,
@@ -29,8 +30,12 @@ def download_issues() -> list[dict]:
     )
     print(f"Found {len(issue_keys)} issue IDs")
 
+    bot_authors = load_bot_authors()
+    print(f"Loaded {len(bot_authors)} bot author names to exclude")
+
     issues = []
     failed = []
+    total_bot_comments_removed = 0
 
     print("Downloading issues from Jira...")
     for issue_key in tqdm(issue_keys):
@@ -63,6 +68,11 @@ def download_issues() -> list[dict]:
 
             description = fields.get("description") or ""
 
+            raw_comments = (fields.get("comment") or {}).get("comments", [])
+            human_comments = filter_bot_comments(raw_comments, bot_authors)
+            bot_comments_removed = len(raw_comments) - len(human_comments)
+            total_bot_comments_removed += bot_comments_removed
+
             issues.append(
                 {
                     "issue_key": issue_key,
@@ -82,7 +92,8 @@ def download_issues() -> list[dict]:
                     "reporter": reporter,
                     "components": components,
                     "labels": fields.get("labels", []),
-                    "comments": fields["comment"]["total"],
+                    "comments": len(human_comments),
+                    "bot_comments_removed": bot_comments_removed,
                     "parent": parent,
                 }
             )
@@ -101,6 +112,7 @@ def download_issues() -> list[dict]:
     print(f"Failed: {len(failed)}")
     if failed:
         print("Failed issues:", ", ".join(failed))
+    print(f"Total bot comments excluded from counts: {total_bot_comments_removed}")
 
     return issues
 
