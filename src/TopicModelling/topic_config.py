@@ -28,7 +28,7 @@ ITER1_NUM_TOPICS = 5   # set from the coherence sweep result - change if you rer
 ITER1_ALPHA = 0.01
 ITER1_BETA = 0.01
 
-ITER2_NUM_TOPICS = 10   # set from the coherence sweep result on ontology tokens
+ITER2_NUM_TOPICS = 3   # set from the coherence sweep result on ontology tokens
 ITER2_ALPHA = 0.01
 ITER2_BETA = 0.01
 
@@ -36,8 +36,8 @@ TOP_N_WORDS = 15
 MIN_DF = 5
 MAX_DF = 0.6
 
-# tokens that are pipeline artifacts, not real vocabulary - drop before LDA
-EXTRA_STOPWORDS = {"simpleclassname", "versionnumber", "filepath", "noformatblock"}
+# tokens that are pipeline artifacts, not real vocabulary - drop before LDA/BERTopic
+EXTRA_STOPWORDS = {"simpleclassname", "classname", "versionnumber", "filepath", "noformatblock"}
 
 # ---- Ontology classes, per the assignment text (NOT the raw column names in
 # ontology_sheet_ref.xlsx - that file is only the "further examples" sheet the
@@ -68,7 +68,13 @@ ONTOLOGY_COLUMN_TO_CLASS = {
     "Connector_": "CONNECTOR",
     "Pattern_": "SOLUTION",
 }
-INCLUDE_TECHNOLOGY_CLASS = True
+INCLUDE_TECHNOLOGY_CLASS = False
+# Turned off: on this corpus, the sheet's Technology_ column contributed
+# 1,142 of 1,651 total ontology terms (69%) - it swamped every other class
+# and was a big reason Iteration 2's coherence (peak 0.276) came in worse
+# than baseline (peak 0.348). Set True if you want it back, but expect the
+# same dilution unless you first prune that column down to a shorter,
+# curated list of actual technology names (docker, hadoop, kubernetes, ...).
 if INCLUDE_TECHNOLOGY_CLASS:
     ONTOLOGY_COLUMN_TO_CLASS["Technology_"] = "TECHNOLOGY"
 
@@ -112,3 +118,26 @@ QUALITY_ATTRIBUTE_GROUPS = {
 }
 
 MIN_FREQ_TO_REPLACE = 40  # raised from 20 - iteration 1 showed 20 was too aggressive
+
+# ---- BERTopic parameters - explicit 6-step pipeline, matching the lecture
+# slide (Grootendorst, BERTopic algorithm overview) ----
+BERTOPIC_EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+BERTOPIC_UMAP_PARAMS = dict(
+    n_neighbors=15,
+    n_components=5,
+    min_dist=0.0,
+    metric="cosine",
+    random_state=42,   # not in the slide, but keeps results reproducible run-to-run
+)
+
+BERTOPIC_HDBSCAN_PARAMS = dict(
+    min_cluster_size=15,
+    metric="euclidean",
+    cluster_selection_method="eom",
+    prediction_data=True,
+)
+
+BERTOPIC_VECTORIZER_PARAMS = dict(
+    stop_words="english",
+)
