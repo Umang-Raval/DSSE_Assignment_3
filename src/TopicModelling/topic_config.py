@@ -24,11 +24,11 @@ BERTOPIC_DIR = TM_OUTPUT_DIR / "bertopic"
 
 # ---- LDA parameters ----
 # Iteration 1: many topics, low alpha/beta -> check if project-specific noise dominates
-ITER1_NUM_TOPICS = 5   # set from the coherence sweep result - change if you rerun coherence
+ITER1_NUM_TOPICS = 3   # set from the coherence sweep result - change if you rerun coherence
 ITER1_ALPHA = 0.01
 ITER1_BETA = 0.01
 
-ITER2_NUM_TOPICS = 3   # set from the coherence sweep result on ontology tokens
+ITER2_NUM_TOPICS = 5   # set from the coherence sweep result on ontology tokens
 ITER2_ALPHA = 0.01
 ITER2_BETA = 0.01
 
